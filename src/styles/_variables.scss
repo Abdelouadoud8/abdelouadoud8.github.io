@@ -1,0 +1,28 @@
+// COLOR VARIABLES
+$color-primary: #d96b59;
+$color-primary-light: #ed936b;
+$color-primary-gradient: linear-gradient(180deg, #da6d5a 0%, #f09a6e 100%);
+$color-secondary: #fddc9f;
+$color-tertiary: #435160;
+
+$color-white: #fff;
+
+$color-grey-light-1: #f7f7fe;
+$color-grey-light-2: #f1f1fe;
+$color-grey-light-3: #f9f6fc;
+
+$color-grey-dark-1: #333333;
+$color-grey-dark-2: #4f4f4f;
+$color-grey-dark-3: #828282;
+$color-grey-dark-4: #b0a5a5;
+$color-grey-dark-5: #bdbdbd;
+
+// FONT VARIABLES
+$font-primary: 'Montserrat';
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 56.25em; // 900px
+$bp-small: 37.5em; // 600px
+$bp-smallest: 31.25em; // 500px

@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+html {
+ box-sizing: border-box;
+ font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+
+ //  @media (min-width: $bp-largest) {
+ //   font-size: 50%;
+ //  }
+
+ //  @media (max-width: $bp-large) {
+ //   font-size: 62.5%;
+ //   }
+ @media only screen and (min-width: $bp-largest) {
+  font-size: 50%;
+ }
+}
+
+body {
+ font-family: $font-primary !important;
+ color: $color-grey-dark-2;
+ font-weight: 300;
+ line-height: 1.6;
+ min-height: 100vh;
+}
