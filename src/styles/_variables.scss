@@ -1,24 +1,14 @@
 // COLOR VARIABLES
-$color-primary: #d96b59;
-$color-primary-light: #ed936b;
-$color-primary-gradient: linear-gradient(180deg, #da6d5a 0%, #f09a6e 100%);
-$color-secondary: #fddc9f;
-$color-tertiary: #435160;
-
-$color-white: #fff;
-
-$color-grey-light-1: #f7f7fe;
-$color-grey-light-2: #f1f1fe;
-$color-grey-light-3: #f9f6fc;
-
-$color-grey-dark-1: #333333;
-$color-grey-dark-2: #4f4f4f;
-$color-grey-dark-3: #828282;
-$color-grey-dark-4: #b0a5a5;
-$color-grey-dark-5: #bdbdbd;
+$main-color: #5B63F6;
+$main-color-hover: #3F47DA;
+$black: #252525 !important;
+$gray-1: #D9E6ED;
+$gray-2: #dedede;
+$gray-3: #828282;
+$gray-4: #BDBDBD;
 
 // FONT VARIABLES
-$font-primary: 'Montserrat';
+$font-primary: "poppins";
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; // 1200px
