@@ -12,11 +12,10 @@ const PersonalInfos: FC = () => {
           and digital experiences
         </p>
         <p className="about__personalinfos-body--paragraph3">
-          I'm Abdelouadoud Mahdaoui, 20 years old, 4th year (2CS) computer
-          science student at ESI-SBA. I'm an expert UI/UX designer, I worked on
-          +40 professional project (including wireframing - prototyping annd UI)
-          using both Figma & Adobe XD. I also work on graphic design. I work as
-          a front-end developer using Reactjs.
+          I am specialized in bridging the tenets of brand identity with UX/UI
+          to create innovative and impactful design solutions for the modern
+          age. Aside from design, I play volleyball, run long distances, watch
+          anime, and a big fun of Friends.
         </p>
       </div>
     </div>

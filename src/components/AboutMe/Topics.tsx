@@ -1,15 +1,16 @@
 import { FC } from "react";
-import { Card } from "reactstrap";
+import { Card, InputProps } from "reactstrap";
 
-const Topics: FC = () => {
+interface Props extends InputProps {
+  title: string;
+}
+
+const Topics: FC<Props> = ({ title, children }) => {
   return (
     <div className="about__topics--topiccontent">
-      <h1>education</h1>
+      <h1>{title}</h1>
       <Card className="about__topics--topiccontent-diviser"></Card>
-      <div>
-        <span>Higher National School Of Computer Science</span>
-        <p>Bachelor of Business Administration, June 2021</p>
-      </div>
+      <div>{children}</div>
     </div>
   );
 };

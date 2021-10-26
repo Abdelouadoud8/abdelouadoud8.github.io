@@ -108,46 +108,60 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     margin-top: 9.25rem; }
     .about__personalinfos img {
       width: 48rem; }
     .about__personalinfos-body {
-      margin-top: 2.5rem;
+      margin-top: 4rem;
       width: 60%; }
       .about__personalinfos-body span {
-        font-size: 7rem;
-        font-weight: 800;
+        font-size: 6rem;
+        font-weight: 700;
         color: #d9e6ed; }
       .about__personalinfos-body--paragraph1 {
         margin-top: 3rem;
         font-size: 6rem; }
       .about__personalinfos-body--paragraph2 {
         margin-top: 4rem;
-        font-size: 3.5rem;
+        font-size: 2.3rem;
         color: #252525 !important;
-        font-weight: 600; }
+        font-weight: 500;
+        width: 85%; }
       .about__personalinfos-body--paragraph3 {
         margin-top: 4rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 4rem;
-        color: #828282; }
+        font-weight: 400 !important;
+        color: #828282;
+        width: 85%; }
   .about__topics2 {
-    margin-top: 8rem !important; }
+    margin-top: 8rem !important;
+    display: flex !important;
+    flex-direction: row !important; }
   .about__topics {
-    margin-top: 16rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
-    width: 90%; }
+    justify-content: space-between;
+    width: 85%; }
+    .about__topics-diviser {
+      width: 85%;
+      background-color: #5b63f6 !important;
+      height: 0.2rem;
+      border-radius: 0rem !important;
+      border: 0rem !important;
+      margin-top: 16rem; }
     .about__topics--topiccontent {
-      width: 25%; }
+      width: 22%; }
       .about__topics--topiccontent h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-transform: uppercase;
-        font-weight: 600; }
+        font-weight: 600;
+        letter-spacing: 3px !important; }
       .about__topics--topiccontent-diviser {
-        width: 4.5rem;
-        height: 0.7rem;
+        width: 2.5rem;
+        height: 0.4rem;
         background-color: #5b63f6 !important;
         border-radius: 0rem !important;
         border: 0rem !important;
@@ -164,7 +178,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     margin-top: 4rem;
     margin-bottom: 16rem; }
     .about__semifooter-content Button {
@@ -183,23 +197,23 @@ body {
       display: flex;
       flex-direction: row; }
   .about__semifooter-diviser {
-    width: 90%;
+    width: 85%;
     background-color: #5b63f6 !important;
     height: 0.4rem;
     border-radius: 0rem !important;
     border: 0rem !important;
-    margin-top: 8rem; }
+    margin-top: 6rem; }
   .about__semifooter-element {
     display: flex;
     flex-direction: column;
     margin-right: 18rem; }
     .about__semifooter-element h1 {
-      font-size: 3.2rem;
+      font-size: 2.4rem;
       font-weight: 600; }
     .about__semifooter-element span {
-      font-size: 2.3rem;
+      font-size: 1.8rem;
       font-weight: 600;
-      color: #dedede;
+      color: #bdbdbd;
       margin-top: 1.2rem !important; }
       .about__semifooter-element span:hover {
         color: #5b63f6; }
@@ -211,15 +225,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.75rem 3rem;
-  box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.75rem 5rem;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%; }
   .footer span,
   .footer p {
-    font-size: 14px; }
+    font-size: 12px;
+    color: #828282; }
   .footer-socialmedia img {
     margin-left: 1.5rem;
     width: 2.3rem; }

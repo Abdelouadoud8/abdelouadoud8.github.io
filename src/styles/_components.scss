@@ -121,7 +121,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
     margin-top: 9.25rem;
 
     & img {
@@ -129,12 +129,12 @@
     }
 
     &-body {
-      margin-top: 2.5rem;
+      margin-top: 4rem;
       width: 60%;
 
       & span {
-        font-size: 7rem;
-        font-weight: 800;
+        font-size: 6rem;
+        font-weight: 700;
         color: $gray-1;
       }
       &--paragraph1 {
@@ -143,39 +143,56 @@
       }
       &--paragraph2 {
         margin-top: 4rem;
-        font-size: 3.5rem;
+        font-size: 2.3rem;
         color: $black;
-        font-weight: 600;
+        font-weight: 500;
+        width: 85%;
       }
       &--paragraph3 {
         margin-top: 4rem;
-        font-size: 2rem;
+        font-size: 1.7rem;
         line-height: 4rem;
+        font-weight: 400 !important;
         color: $gray-3;
+        width: 85%;
       }
     }
   }
 
   &__topics2 {
     margin-top: 8rem !important;
+    display: flex !important;
+    flex-direction: row !important;
   }
 
   &__topics {
-    margin-top: 16rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: row;
-    width: 90%;
+    justify-content: space-between;
+    width: 85%;
+
+    &-diviser {
+      width: 85%;
+      background-color: $main-color !important;
+      height: 0.2rem;
+      border-radius: 0rem !important;
+      border: 0rem !important;
+      margin-top: 16rem;
+    }
+
     &--topiccontent {
-      width: 25%;
+      width: 22%;
       & h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
         text-transform: uppercase;
         font-weight: 600;
+        letter-spacing: 3px !important;
       }
 
       &-diviser {
-        width: 4.5rem;
-        height: 0.7rem;
+        width: 2.5rem;
+        height: 0.4rem;
         background-color: $main-color !important;
         border-radius: 0rem !important;
         border: 0rem !important;
@@ -200,7 +217,7 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 90%;
+      width: 85%;
       margin-top: 4rem;
       margin-bottom: 16rem;
 
@@ -228,12 +245,12 @@
       }
     }
     &-diviser {
-      width: 90%;
+      width: 85%;
       background-color: $main-color !important;
       height: 0.4rem;
       border-radius: 0rem !important;
       border: 0rem !important;
-      margin-top: 8rem;
+      margin-top: 6rem;
     }
 
     &-element {
@@ -241,14 +258,14 @@
       flex-direction: column;
       margin-right: 18rem;
       & h1 {
-        font-size: 3.2rem;
+        font-size: 2.4rem;
         font-weight: 600;
       }
 
       & span {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
         font-weight: 600;
-        color: $gray-2;
+        color: $gray-4;
         margin-top: 1.2rem !important;
 
         &:hover {
@@ -268,13 +285,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.75rem 3rem;
-  box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.75rem 5rem;
+  // box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
 
   & span,
   p {
-    font-size: 14px;
+    font-size: 12px;
+    color: $gray-3;
   }
 
   position: fixed;
