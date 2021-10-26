@@ -5,8 +5,8 @@ const Work: FC = () => {
   return (
     <div>
       <div className="work__header">
-        <img src="/" alt="" />
-        <h1>Hi, I'm Abdelouadoud</h1>
+        <img src="/img/mypicture.jpeg" alt="" />
+        <span>Hi, I’m Abdelouadoud 🤙</span>
         <p>
           I’m a UI/UX designer & front-end developer focused on building brands
           and digital experiences - Currently 4th year computer science student

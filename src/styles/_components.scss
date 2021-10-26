@@ -1,5 +1,53 @@
 .work {
   &__header {
-      font-family: $font-primary;
+    font-family: $font-primary;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 18.125rem;
+
+    & img {
+        width: 7%;
+        border-radius: 90%;
+        margin-bottom: 3rem;
+    }
+
+    & span {
+        font-weight: 400;
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
+
+    }
+
+    & p {
+        font-weight: 500;
+        font-size: 2.4rem;
+        text-align: center;
+        width: 50%;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.75rem 2.25rem;
+  box-shadow: 0rem -4px 6px #F6F6F6;
+
+  & span,
+  p {
+    font-size: 14px;
+  }
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  &-socialmedia {
+    & img {
+      margin-left: 1.25rem;
+    }
   }
 }

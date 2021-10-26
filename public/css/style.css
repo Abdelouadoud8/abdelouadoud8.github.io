@@ -19,4 +19,37 @@ body {
   min-height: 100vh; }
 
 .work__header {
-  font-family: "poppins"; }
+  font-family: "poppins";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18.125rem; }
+  .work__header img {
+    width: 7%;
+    border-radius: 90%;
+    margin-bottom: 3rem; }
+  .work__header span {
+    font-weight: 400;
+    font-size: 2.2rem;
+    margin-bottom: 3rem; }
+  .work__header p {
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 50%; }
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.75rem 2.25rem;
+  box-shadow: 0rem -4px 6px #F6F6F6;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer span,
+  .footer p {
+    font-size: 14px; }
+  .footer-socialmedia img {
+    margin-left: 1.25rem; }
