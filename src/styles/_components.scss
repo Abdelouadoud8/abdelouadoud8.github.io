@@ -111,6 +111,159 @@
   }
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 11rem;
+
+  &__personalinfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 9.25rem;
+
+    & img {
+      width: 48rem;
+    }
+
+    &-body {
+      margin-top: 2.5rem;
+      width: 60%;
+
+      & span {
+        font-size: 7rem;
+        font-weight: 800;
+        color: $gray-1;
+      }
+      &--paragraph1 {
+        margin-top: 3rem;
+        font-size: 6rem;
+      }
+      &--paragraph2 {
+        margin-top: 4rem;
+        font-size: 3.5rem;
+        color: $black;
+        font-weight: 600;
+      }
+      &--paragraph3 {
+        margin-top: 4rem;
+        font-size: 2rem;
+        line-height: 4rem;
+        color: $gray-3;
+      }
+    }
+  }
+
+  &__topics2 {
+    margin-top: 8rem !important;
+  }
+
+  &__topics {
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    &--topiccontent {
+      width: 25%;
+      & h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: 600;
+      }
+
+      &-diviser {
+        width: 4.5rem;
+        height: 0.7rem;
+        background-color: $main-color !important;
+        border-radius: 0rem !important;
+        border: 0rem !important;
+        margin: 1.7rem 0rem;
+      }
+
+      & span {
+        font-size: 1.5rem;
+        color: $gray-3;
+        font-weight: 600;
+      }
+      & p {
+        font-size: 1.5rem;
+        color: $gray-3;
+        margin-top: 0.3rem;
+      }
+    }
+  }
+
+  &__semifooter {
+    &-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      margin-top: 4rem;
+      margin-bottom: 16rem;
+
+      & Button {
+        width: 22rem;
+        height: 5rem;
+        font-size: 1.7rem;
+        background-color: $main-color;
+        border-radius: 0rem;
+        text-transform: uppercase;
+        border: 0rem !important;
+
+        &:hover {
+          background-color: $main-color-hover;
+        }
+
+        &:active {
+          background-color: $main-color-click;
+        }
+      }
+
+      &spec {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+    &-diviser {
+      width: 90%;
+      background-color: $main-color !important;
+      height: 0.4rem;
+      border-radius: 0rem !important;
+      border: 0rem !important;
+      margin-top: 8rem;
+    }
+
+    &-element {
+      display: flex;
+      flex-direction: column;
+      margin-right: 18rem;
+      & h1 {
+        font-size: 3.2rem;
+        font-weight: 600;
+      }
+
+      & span {
+        font-size: 2.3rem;
+        font-weight: 600;
+        color: $gray-2;
+        margin-top: 1.2rem !important;
+
+        &:hover {
+          color: $main-color;
+        }
+      }
+
+      & a {
+        text-decoration: none;
+        margin-top: 1.2rem !important;
+      }
+    }
+  }
+}
+
 .footer {
   display: flex;
   flex-direction: row;

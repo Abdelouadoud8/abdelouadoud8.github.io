@@ -6,7 +6,7 @@ const Home: FC = () => {
   return (
     <>
       <Work />
-      <Footer/>
+      <Footer />
     </>
   );
 };
