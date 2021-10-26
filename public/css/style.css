@@ -39,12 +39,73 @@ body {
     text-align: center;
     width: 50%; }
 
+.work__projects {
+  margin-top: 7.5rem;
+  text-align: center; }
+  .work__projects img {
+    width: 48rem; }
+
+.work__clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24rem; }
+  .work__clients h1 {
+    font-size: 4.5rem; }
+  .work__clients-logos {
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%; }
+    .work__clients-logos img {
+      width: 12rem; }
+
+.work__testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16.75rem;
+  margin-bottom: 15rem; }
+  .work__testimonials h1 {
+    font-size: 5rem;
+    width: 45rem;
+    font-weight: 600; }
+  .work__testimonials-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 9.25rem; }
+  .work__testimonials-body {
+    width: 85rem;
+    margin-top: 7rem; }
+    .work__testimonials-body > span {
+      color: #252525 !important;
+      font-size: 4rem;
+      font-weight: 600; }
+    .work__testimonials-body > p {
+      margin-top: 6rem;
+      font-size: 2rem;
+      color: #828282;
+      line-height: 4rem; }
+    .work__testimonials-body--person {
+      margin-top: 8rem; }
+      .work__testimonials-body--person-name {
+        font-size: 2rem;
+        color: #252525 !important; }
+      .work__testimonials-body--person-position {
+        font-size: 2rem;
+        color: #BDBDBD;
+        margin-left: 3rem; }
+
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.75rem 2.25rem;
-  box-shadow: 0rem -4px 6px #F6F6F6;
+  padding: 1.75rem 3rem;
+  box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%; }
@@ -52,4 +113,5 @@ body {
   .footer p {
     font-size: 14px; }
   .footer-socialmedia img {
-    margin-left: 1.25rem; }
+    margin-left: 1.5rem;
+    width: 2.3rem; }

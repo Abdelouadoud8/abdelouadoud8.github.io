@@ -8,23 +8,105 @@
     margin-top: 18.125rem;
 
     & img {
-        width: 7%;
-        border-radius: 90%;
-        margin-bottom: 3rem;
+      width: 7%;
+      border-radius: 90%;
+      margin-bottom: 3rem;
     }
 
     & span {
-        font-weight: 400;
-        font-size: 2.2rem;
-        margin-bottom: 3rem;
-
+      font-weight: 400;
+      font-size: 2.2rem;
+      margin-bottom: 3rem;
     }
 
     & p {
-        font-weight: 500;
-        font-size: 2.4rem;
-        text-align: center;
-        width: 50%;
+      font-weight: 500;
+      font-size: 2.4rem;
+      text-align: center;
+      width: 50%;
+    }
+  }
+
+  &__projects {
+    margin-top: 7.5rem;
+    text-align: center;
+    & img {
+      width: 48rem;
+    }
+  }
+
+  &__clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24rem;
+
+    & h1 {
+      font-size: 4.5rem;
+    }
+
+    &-logos {
+      margin-top: 9rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 70%;
+      & img {
+        width: 12rem;
+      }
+    }
+  }
+
+  &__testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16.75rem;
+    margin-bottom: 15rem;
+    & h1 {
+      font-size: 5rem;
+      width: 45rem;
+      font-weight: 600;
+    }
+
+    &-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 90%;
+      margin-top: 9.25rem;
+    }
+    &-body {
+      width: 85rem;
+      margin-top: 7rem;
+
+      & > span {
+        color: $black;
+        font-size: 4rem;
+        font-weight: 600;
+      }
+
+      & > p {
+        margin-top: 6rem;
+        font-size: 2rem;
+        color: $gray-3;
+        line-height: 4rem;
+      }
+
+      &--person {
+        margin-top: 8rem;
+
+        &-name {
+          font-size: 2rem;
+          color: $black;
+        }
+
+        &-position {
+          font-size: 2rem;
+          color: $gray-4;
+          margin-left: 3rem;
+        }
+      }
     }
   }
 }
@@ -33,8 +115,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.75rem 2.25rem;
-  box-shadow: 0rem -4px 6px #F6F6F6;
+  padding: 1.75rem 3rem;
+  box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
 
   & span,
   p {
@@ -47,7 +130,8 @@
 
   &-socialmedia {
     & img {
-      margin-left: 1.25rem;
+      margin-left: 1.5rem;
+      width: 2.3rem;
     }
   }
 }
