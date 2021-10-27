@@ -281,6 +281,93 @@
   }
 }
 
+.projectdetails {
+  &__pageform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__topics {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  &__header {
+    &-role {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $gray-3;
+    }
+
+    &-title {
+      font-size: 8rem;
+      font-weight: 700;
+      color: $gray-1;
+      width: 60%;
+    }
+
+    &-subtitle {
+      font-size: 3rem;
+      font-weight: 500;
+      color: $black;
+      width: 65%;
+    }
+
+    &-description {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: $gray-3;
+      width: 65%;
+      margin-top: 1.4rem;
+      line-height: 2.2rem;
+    }
+  }
+
+  &__content {
+    width: 70%;
+    margin-top: 22rem;
+
+    & img {
+      width: 100%;
+      margin-top: 6rem;
+      // height: 600px;
+    }
+
+    &details {
+      &--number {
+        font-size: 8rem;
+        font-weight: 700;
+        color: $gray-1;
+      }
+
+      & h1 {
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        color: $gray-3;
+        letter-spacing: 4px;
+        font-weight: 600;
+      }
+
+      & h2 {
+        font-size: 2.8rem;
+        color: $black;
+        font-weight: 500;
+      }
+
+      &--paragraph {
+        font-size: 1.5rem;
+        color: $black;
+      }
+    }
+  }
+}
+
 .footer {
   display: flex;
   flex-direction: row;
