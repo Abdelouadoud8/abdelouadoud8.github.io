@@ -7,18 +7,16 @@ const Medicol: FC = () => {
   return (
     <div className="projectdetails__pageform">
       <ProjectDetails
-        picture={"/img/medicol/1.png"}
+        picture={"/img/myprojects/uikitmedicol/1.png"}
         role={"UI/UX designer"}
         title={"Medicol mobile UI kit"}
-        subtitle={
-          "Sapien cursus posuere porttitor velit sapien, rhoncus sit ut ullamcorper."
-        }
+        subtitle={"Control your medical life & health from your home"}
         description={
-          "Purus quis blandit at pulvinar aliquam a. Ipsum consectetur odio vel in pulvinar in eget. Commodo massa eget ipsum, commodo. Adipiscing viverra malesuada imperdiet sit id. A nunc scelerisque pellentesque lectus ullamcorper. Elementum pharetra aliquam vulputate nibh id turpis elementum vitae. Elit blandit cras tellus non ipsum leo. Quis ultrices elit pellentesque cras sit vitae arcu mattis. Sit sed faucibus suspendisse tortor sagittis, amet."
+          "Medicol is a mobile application dedicated to all users that want to control their medical life including their medical folders, appointments with doctors, access to all pharmacies and also a space for exchange with doctors and people. If you are a dad or a mom, Medicol allows you to follow your son's vaccination and the follow-up with his doctor"
         }
         topic1={
           <Topics title={"Date"}>
-            <p>October - December 2021</p>
+            <p>May - Juin 2021</p>
           </Topics>
         }
         topic2={
@@ -44,10 +42,7 @@ const Medicol: FC = () => {
         // }
         topic5={
           <Topics title={"Deliverables"}>
-            <p>
-              Brand Identity, Website, Wayfinding, Summit Collateral, Deck
-              Template, Environmental Graphics
-            </p>
+            <p>Mobile application, Wireframing, UI/UX design, prototype</p>
           </Topics>
         }
         // topic6={
@@ -58,23 +53,40 @@ const Medicol: FC = () => {
         // }
       >
         <span className="projectdetails__contentdetails--number">01</span>
-        <h1>- All screens -</h1>
-        <h2>Home page</h2>
+        <h1>The challenge</h1>
+        <h2>Why we did this UI kit?</h2>
         <p className="projectdetails__contentdetails--paragraph">
-          Vel lacus dolor nulla elit eros. Ornare quam purus viverra praesent
-          lacinia erat vitae. Nulla aliquet mi ornare nibh venenatis, etiam.
-          Interdum quam gravida consectetur diam. Odio pretium eget tristique
-          sed. Ullamcorper elit adipiscing dolor nisi ut. Lectus commodo amet
-          dui, id amet ac ac massa. Sed malesuada nunc orci metus, massa, donec
-          nulla. A, velit ultricies quis orci ultrices nibh fermentum. Tristique
-          dolor cursus adipiscing pretium eu, nam. Proin adipiscing amet, odio
-          orci felis natoque nec.
+          There are thousands of new medical applications and the number is
+          increasing everyday, there lot of developers and designers that need a
+          creative and attractive design with a good UX, but they don't have
+          enough time to make a design from scratch, here our UI kit comes to
+          help with various components, screens and layouts.
         </p>
-        <img src="/img/medicol/2.png" alt="" />
-        <img src="/img/medicol/3.png" alt="" />
-        <img src="/img/medicol/4.png" alt="" />
-        <img src="/img/medicol/5.png" alt="" />
-
+        <img src="/img/myprojects/uikitmedicol/2.png" alt="" id="beforetitle" />
+        <span className="projectdetails__contentdetails--number">02</span>
+        <h1>The sollution</h1>
+        <h2>How we resolved the problem?</h2>
+        <p className="projectdetails__contentdetails--paragraph">
+          This UI kit helps the designers to get a modern design in a short time
+          by providing more than 50 pre-made components, +36 customisable
+          screens and also a high organized layouts.
+        </p>
+        <img src="/img/myprojects/uikitmedicol/3.png" alt="" />
+        <img src="/img/myprojects/uikitmedicol/4.png" alt="" />
+        <img src="/img/myprojects/uikitmedicol/5.png" alt="" />
+        <span className="projectdetails__contentdetails--number">03</span>
+        <h1>UI screens & parts</h1>
+        <h2>WHat does the UI kit includes?</h2>
+        <p className="projectdetails__contentdetails--paragraph">
+          The UI kit includes 6 main parts organized "welcome and
+          authentification", "Doctors, appointments & pharmacies", "Medical
+          folder", "chat", "BLog & discussion space", "Fitness & body", all
+          parts are high organized and consistent by providing various choices
+          with quality design.
+        </p>
+        <img src="/img/myprojects/uikitmedicol/7.png" alt="" />
+        <img src="/img/myprojects/uikitmedicol/8.png" alt="" />
+        <img src="/img/myprojects/uikitmedicol/6.png" alt="" />
       </ProjectDetails>
       <Footer />
     </div>

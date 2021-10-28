@@ -1,5 +1,6 @@
 import { ComponentProps, FC } from "react";
 import { Input, InputProps } from "reactstrap";
+import MyProjects from "../Work/MyProjects";
 import ProjectHeader from "./ProjectHeader";
 
 interface Props extends InputProps {
@@ -31,23 +32,26 @@ const ProjectDetails: FC<Props> = ({
   topic6,
 }) => {
   return (
-    <div className="projectdetails__content">
-      <ProjectHeader
-        role={role}
-        title={title}
-        subtitle={subtitle}
-        description={description}
-      />
-      <img src={picture} alt="" />
-      <div className="projectdetails__topics ">
-        {topic1}
-        {topic2}
-        {topic3}
-        {topic4}
-        {topic5}
-        {topic6}
+    <div className="projectdetails">
+      <div className="projectdetails__content">
+        <ProjectHeader
+          role={role}
+          title={title}
+          subtitle={subtitle}
+          description={description}
+        />
+        <img src={picture} alt="" />
+        <div className="projectdetails__topics ">
+          {topic1}
+          {topic2}
+          {topic3}
+          {topic4}
+          {topic5}
+          {topic6}
+        </div>
+        <div className="projectdetails__contentdetails">{children}</div>
       </div>
-      <div className="projectdetails__contentdetails">{children}</div>
+      <MyProjects />
     </div>
   );
 };
