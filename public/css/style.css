@@ -71,7 +71,8 @@ body {
   .work__testimonials h1 {
     font-size: 5rem;
     width: 45rem;
-    font-weight: 600; }
+    font-weight: 600;
+    text-align: center; }
   .work__testimonials-content {
     display: flex;
     flex-direction: row;

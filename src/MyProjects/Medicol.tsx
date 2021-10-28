@@ -42,7 +42,10 @@ const Medicol: FC = () => {
         // }
         topic5={
           <Topics title={"Deliverables"}>
-            <p>Mobile application, Wireframing, UI/UX design, prototype</p>
+            <p>
+              Mobile UI kit, customizable components, pre-made layouts, figma
+              source file.
+            </p>
           </Topics>
         }
         // topic6={
@@ -76,7 +79,7 @@ const Medicol: FC = () => {
         <img src="/img/myprojects/uikitmedicol/5.png" alt="" />
         <span className="projectdetails__contentdetails--number">03</span>
         <h1>UI screens & parts</h1>
-        <h2>WHat does the UI kit includes?</h2>
+        <h2>What does the UI kit includes?</h2>
         <p className="projectdetails__contentdetails--paragraph">
           The UI kit includes 6 main parts organized "welcome and
           authentification", "Doctors, appointments & pharmacies", "Medical
