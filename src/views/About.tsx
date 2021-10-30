@@ -3,10 +3,12 @@ import { Button, Card } from "reactstrap";
 import PersonalInfos from "../components/AboutMe/PersonalInfos";
 import Topics from "../components/AboutMe/Topics";
 import Footer from "../components/Foote";
+import Header from "../components/Header";
 
 const About: FC = () => {
   return (
     <div className="about">
+      <Header/>
       <PersonalInfos />
       <Card className="about__topics-diviser"></Card>
       <div className="about__topics">

@@ -1,5 +1,6 @@
 import { ComponentProps, FC } from "react";
 import { Input, InputProps } from "reactstrap";
+import Header from "../Header";
 import MyProjects from "../Work/MyProjects";
 import ProjectHeader from "./ProjectHeader";
 
@@ -33,6 +34,7 @@ const ProjectDetails: FC<Props> = ({
 }) => {
   return (
     <div className="projectdetails">
+      <Header/>
       <div className="projectdetails__content">
         <ProjectHeader
           role={role}

@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 const MyProjects: FC = () => {
   return (
     <div className="work__projects">
+      {/* <Link to="/medicol">
+        <Card className="work__projects-listitem work__projects-medicol"></Card>
+      </Link>
+      <Link to="/beachsnowvolleyball">
+        <Card className="work__projects-listitem work__projects-beachsnow"></Card>
+      </Link> */}
       <Link to="/medicol">
         <img src="/img/myprojects/uikitmedicol/1.png" alt="" />
       </Link>

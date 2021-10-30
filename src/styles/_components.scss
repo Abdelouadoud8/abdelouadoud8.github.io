@@ -1,3 +1,45 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 4rem 8rem;
+  width: 100%;
+  font-weight: 700;
+
+  &__logo {
+    color: $black;
+    font-size: 4rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28%;
+    list-style: none;
+    align-items: right;
+    padding-top: 1.5rem;
+    &-link {
+      color: $gray-2 !important;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: 600;
+    }
+    &-link:link,
+    &-link:visited {
+      color: $main-color;
+      text-decoration: none;
+      position: relative;
+    }
+
+    &-link:hover {
+      color: $black;
+    }
+  }
+}
+
 .work {
   &__header {
     font-family: $font-primary;
@@ -30,6 +72,23 @@
   &__projects {
     margin-top: 7.5rem;
     text-align: center;
+    &-listitem {
+      width: 48rem;
+      height: 30rem;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+      border-radius: 0rem !important;
+      border: 0rem !important;
+    }
+
+    &-medicol {
+      background-image: url("https://i.suar.me/dl6n7/l");
+    }
+    &-beachsnow {
+      background-image: url("https://i.suar.me/8Q9LE/l");
+    }
+
     & img {
       width: 48rem;
       height: 30rem;

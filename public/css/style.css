@@ -18,6 +18,39 @@ body {
   line-height: 1.6;
   min-height: 100vh; }
 
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 4rem 8rem;
+  width: 100%;
+  font-weight: 700; }
+  .header__logo {
+    color: #252525 !important;
+    font-size: 4rem; }
+  .header__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 28%;
+    list-style: none;
+    align-items: right;
+    padding-top: 1.5rem; }
+    .header__list-link {
+      color: #dedede !important;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      font-weight: 600; }
+    .header__list-link:link, .header__list-link:visited {
+      color: #5b63f6;
+      text-decoration: none;
+      position: relative; }
+    .header__list-link:hover {
+      color: #252525 !important; }
+
 .work__header {
   font-family: "poppins";
   text-align: center;
@@ -42,6 +75,18 @@ body {
 .work__projects {
   margin-top: 7.5rem;
   text-align: center; }
+  .work__projects-listitem {
+    width: 48rem;
+    height: 30rem;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 0rem !important;
+    border: 0rem !important; }
+  .work__projects-medicol {
+    background-image: url("https://i.suar.me/dl6n7/l"); }
+  .work__projects-beachsnow {
+    background-image: url("https://i.suar.me/8Q9LE/l"); }
   .work__projects img {
     width: 48rem;
     height: 30rem; }
