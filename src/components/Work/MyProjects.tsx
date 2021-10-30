@@ -16,7 +16,10 @@ const MyProjects: FC = () => {
       <Link to="/beachsnowvolleyball">
         <img src="/img/myprojects/beachsnowvolleyball/1.png" alt="" />
       </Link>
-      <img src="/img/myprojects/socialmediaapp/1.png" alt="" />
+      <Link to="/socialmediaapp">
+        <img src="/img/myprojects/socialmediaapp/1.png" alt="" />{" "}
+      </Link>
+
       <img src="/img/myprojects/musicapp/1.png" alt="" />
       <img src="/img/myprojects/gamespackages/1.png" alt="" />
       <img src="/img/myprojects/timelinemanagement/1.png" alt="" />

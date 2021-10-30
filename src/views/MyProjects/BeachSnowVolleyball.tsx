@@ -1,7 +1,7 @@
 import { FC } from "react";
-import Topics from "../components/AboutMe/Topics";
-import Footer from "../components/Foote";
-import ProjectDetails from "../components/ProjectDetails";
+import Topics from "../../components/AboutMe/Topics";
+import Footer from "../../components/Foote";
+import ProjectDetails from "../../components/ProjectDetails";
 
 const BeachSnowVolleyball: FC = () => {
   return (

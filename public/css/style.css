@@ -29,7 +29,8 @@ body {
   font-weight: 700; }
   .header__logo {
     color: #252525 !important;
-    font-size: 4rem; }
+    font-size: 4rem;
+    text-decoration: none; }
   .header__list {
     display: flex;
     flex-direction: row;

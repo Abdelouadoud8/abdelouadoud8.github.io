@@ -4,10 +4,13 @@ import { Link } from "react-router-dom";
 const Header: FC = () => {
   return (
     <div className="header">
-      <span className="header__logo">Abdelouadoud.8</span>
+      <Link to="/" className="header__logo">
+        <span>Abdelouadoud.8</span>
+      </Link>
+
       <ul className="header__list">
         <li className="header__list-item">
-          <Link to="/medicol" className="header__list-link">
+          <Link to="/" className="header__list-link">
             work
           </Link>
         </li>
@@ -17,12 +20,12 @@ const Header: FC = () => {
           </Link>
         </li>
         <li className="header__list-item">
-          <Link to="/beachsnowvolleyball" className="header__list-link">
+          <Link to="/testimonials" className="header__list-link">
             testimonials
           </Link>
         </li>
         <li className="header__list-item">
-          <Link to="/medicol" className="header__list-link">
+          <Link to="/contact" className="header__list-link">
             contact
           </Link>
         </li>
