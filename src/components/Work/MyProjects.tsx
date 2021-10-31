@@ -21,7 +21,9 @@ const MyProjects: FC = () => {
       </Link>
 
       <img src="/img/myprojects/musicapp/1.png" alt="" />
+      <Link to="/gamingpackagewebsite">
       <img src="/img/myprojects/gamespackages/1.png" alt="" />
+      </Link>
       <img src="/img/myprojects/timelinemanagement/1.png" alt="" />
       <img src="/img/myprojects/digitalgrowthsolution/1.png" alt="" />
       <img src="/img/myprojects/carssparesarabic/1.png" alt="" />

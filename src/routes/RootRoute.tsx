@@ -5,6 +5,7 @@ import Medicol from "../views/MyProjects/Medicol";
 import About from "../views/About";
 import Home from "../views/Home";
 import SocialMediaApp from "../views/MyProjects/SocialMediaApp";
+import GamingPackages from "../views/MyProjects/GamingPackages";
 
 const RootRoute: FC = () => {
   return (
@@ -19,6 +20,7 @@ const RootRoute: FC = () => {
           exact
         />
         <Route path="/socialmediaapp" component={SocialMediaApp} exact />
+        <Route path="/gamingpackagewebsite" component={GamingPackages} exact />
       </Switch>
     </Router>
   );

@@ -71,7 +71,7 @@ const SocialMediaApp: FC = () => {
           id="beforetitle"
         />
         <span className="projectdetails__contentdetails--number">02</span>
-        <h1>Graohic chart</h1>
+        <h1>Graphic chart</h1>
         <h2>What about fonts? colors?</h2>
         <p className="projectdetails__contentdetails--paragraph">
           For our colors, we used fresh modern colors that sends the idea of joy
