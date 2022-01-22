@@ -8,7 +8,7 @@ import Header from "../components/Header";
 const About: FC = () => {
   return (
     <div className="about">
-      <Header/>
+      <Header />
       <PersonalInfos />
       <Card className="about__topics-diviser"></Card>
       <div className="about__topics">
@@ -21,31 +21,31 @@ const About: FC = () => {
           <p>TCF - SO, Level B2 - October 2019</p>
         </Topics>
         <Topics title="experience">
-          <span>Higher National School Of Computer Science</span>
-          <p>Bachelor of Business Administration, June 2021</p>
+          <span>Junior UI/UX designer - Hoskadev</span>
+          <p>September 2021 - Today</p>
+          <span>UI/UX designer - Freelance</span>
+          <p>April 2020 - August 2021 </p>
         </Topics>
         <Topics title="skills">
           <span>Design</span>
           <p>
-            Branding + Identity, UI + UX, Art Direction, Motion Design, Concept
+            Branding + Identity, UI/UX, Art Direction, Motion Design, Concept
             Development, Typography, Design Thinking, Design Research, Creative
             Strategy.
           </p>
           <span>Development</span>
-          <p>
-            Web front-end development, Mobile development, Oriented solution.
-          </p>
+          <p>Web & Mobile front-end development, Oriented solution.</p>
         </Topics>
         <Topics title="technical skills">
           <span>Design</span>
           <p>
             Figma, Adobe XD, Sketch, Photoshop, Illustrator, InDesign,
-            Lightroom, After Effects, LaTeX
+            Lightroom, After Effects.
           </p>
           <span>Development</span>
           <p>
             JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Reactjs, React
-            Native Git&Github, MySQL
+            Native, Git&Github, MySQL.
           </p>
           <span>Office automation</span>
           <p>Microsoft Office, LaTeX</p>

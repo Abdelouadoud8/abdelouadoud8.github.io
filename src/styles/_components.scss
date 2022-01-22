@@ -73,14 +73,53 @@
   &__projects {
     margin-top: 7.5rem;
     text-align: center;
+
     &-listitem {
       width: 48rem;
       height: 30rem;
+
       background-size: cover;
       background-position-x: center;
       background-position-y: center;
       border-radius: 0rem !important;
       border: 0rem !important;
+      text-align: left;
+      transition: 0.3s;
+
+      & h1 {
+        font-size: 3rem;
+        color: #ffffff;
+        opacity: 0;
+      }
+
+      &--divider {
+        color: $main-color;
+        opacity: 0;
+      }
+
+      & span {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $gray-4;
+        opacity: 0;
+      }
+
+      &:hover {
+        background-color: #000 !important;
+        opacity: 1;
+        & h1 {
+          opacity: 100;
+        }
+
+        &--divider {
+          opacity: 100;
+        }
+
+        & span {
+          opacity: 100;
+        }
+      }
     }
 
     &-medicol {

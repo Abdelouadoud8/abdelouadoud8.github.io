@@ -6,6 +6,7 @@ import About from "../views/About";
 import Home from "../views/Home";
 import SocialMediaApp from "../views/MyProjects/SocialMediaApp";
 import GamingPackages from "../views/MyProjects/GamingPackages";
+import MedecinQuiz from "../views/MyProjects/MedecinQuiz";
 
 const RootRoute: FC = () => {
   return (
@@ -14,6 +15,8 @@ const RootRoute: FC = () => {
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
         <Route path="/medicol" component={Medicol} exact />
+        <Route path="/medecinquiz" component={MedecinQuiz} exact />
+
         <Route
           path="/beachsnowvolleyball"
           component={BeachSnowVolleyball}
