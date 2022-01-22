@@ -4,7 +4,7 @@ import Topics from "../../components/AboutMe/Topics";
 import Footer from "../../components/Foote";
 import ProjectDetails from "../../components/ProjectDetails";
 
-const Medicol: FC = () => {
+const MedecinQuiz: FC = () => {
   return (
     <div className="projectdetails__pageform">
       <ProjectDetails
@@ -61,7 +61,7 @@ const Medicol: FC = () => {
           scrolling in our plateform. For the fonts, we used mainly the poppins
           font.
         </p>
-        <img src="/img/myprojects/medecinquiz/2.png" alt="graphic_chart.png" />
+        <img src="/img/myprojects/medecinquiz/2.png" alt="" />
         <span className="projectdetails__contentdetails--number">03</span>
         <h1>Landing Page</h1>
         <h2>A modern minimalist landing page</h2>
@@ -70,7 +70,7 @@ const Medicol: FC = () => {
           what the website offers, multiple modules included, pricing, some
           clients testimonials, FAQ and most important why to choose us!
         </p>
-        <img src="/img/myprojects/medecinquiz/3.png" alt="graphic_chart.png" />
+        <img src="/img/myprojects/medecinquiz/3.png" alt="" />
 
         <span className="projectdetails__contentdetails--number">04</span>
         <h1>Login / Sign up</h1>
@@ -79,14 +79,8 @@ const Medicol: FC = () => {
           The user has the ability to sign in and sign up to his account and
           also to reset his password.
         </p>
-        <img
-          src="/img/myprojects/medecinquiz/3_1.png"
-          alt="graphic_chart.png"
-        />
-        <img
-          src="/img/myprojects/medecinquiz/3_2.png"
-          alt="graphic_chart.png"
-        />
+        <img src="/img/myprojects/medecinquiz/3_1.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/3_2.png" alt="" />
 
         <span className="projectdetails__contentdetails--number">05</span>
         <h1>Logged in</h1>
@@ -99,19 +93,19 @@ const Medicol: FC = () => {
           kinds of questions, QCM and long questions, by finishing all questions
           student will get the result of his session with all previous answers.
         </p>
-        <img src="/img/myprojects/medecinquiz/4.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/5.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/6.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/7.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/8.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/9.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/11.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/12.png" alt="graphic_chart.png" />
-        <img src="/img/myprojects/medecinquiz/10.png" alt="graphic_chart.png" />
+        <img src="/img/myprojects/medecinquiz/4.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/5.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/6.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/7.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/8.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/9.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/11.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/12.png" alt="" />
+        <img src="/img/myprojects/medecinquiz/10.png" alt="" />
       </ProjectDetails>
       <Footer />
     </div>
   );
 };
 
-export default Medicol;
+export default MedecinQuiz;

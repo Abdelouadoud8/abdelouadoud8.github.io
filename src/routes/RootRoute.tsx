@@ -7,6 +7,8 @@ import Home from "../views/Home";
 import SocialMediaApp from "../views/MyProjects/SocialMediaApp";
 import GamingPackages from "../views/MyProjects/GamingPackages";
 import MedecinQuiz from "../views/MyProjects/MedecinQuiz";
+import SmartTrans from "../views/MyProjects/SmartTrans";
+import SaidEtudes from "../views/MyProjects/SaidEtudes";
 
 const RootRoute: FC = () => {
   return (
@@ -16,6 +18,8 @@ const RootRoute: FC = () => {
         <Route path="/about" component={About} exact />
         <Route path="/medicol" component={Medicol} exact />
         <Route path="/medecinquiz" component={MedecinQuiz} exact />
+        <Route path="/smarttrans" component={SmartTrans} exact />
+        <Route path="/saidetudes" component={SaidEtudes} exact />
 
         <Route
           path="/beachsnowvolleyball"

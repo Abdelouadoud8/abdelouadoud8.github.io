@@ -10,7 +10,12 @@ const MyProjects: FC = () => {
       <Link to="/medecinQuiz">
         <img src="/img/myprojects/medecinquiz/1.png" alt="" />
       </Link>
-
+      <Link to="/smarttrans">
+        <img src="/img/myprojects/smarttrans/1.png" alt="" />
+      </Link>
+      <Link to="/saidetudes">
+        <img src="/img/myprojects/saidetudes/1.png" alt="" />
+      </Link>
 
       {/* <Link to="/beachsnowvolleyball">
         <img src="/img/myprojects/beachsnowvolleyball/1.png" alt="" />
