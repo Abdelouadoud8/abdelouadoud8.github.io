@@ -1,9 +1,10 @@
-import { FC } from "react";
+import { useEffect } from "react";
+import react from "react";
 import { Link } from "react-router-dom";
 
-const MyProjects: FC = () => {
+const MyProjects: react.FC = () => {
   return (
-    <div className="work__projects">
+    <div className="work__projects" onClick={ScrollToTop()}>
       <Link to="/medicol">
         <img src="/img/myprojects/uikitmedicol/1.png" alt="" />
       </Link>
@@ -31,3 +32,9 @@ const MyProjects: FC = () => {
 };
 
 export default MyProjects;
+
+const ScrollToTop: any = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+};
