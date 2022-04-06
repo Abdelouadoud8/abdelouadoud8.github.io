@@ -17,16 +17,15 @@ const MyProjects: react.FC = () => {
       <Link to="/saidetudes">
         <img src="/img/myprojects/saidetudes/1.png" alt="" />
       </Link>
-
-      {/* <Link to="/beachsnowvolleyball">
-        <img src="/img/myprojects/beachsnowvolleyball/1.png" alt="" />
-      </Link>
       <Link to="/socialmediaapp">
         <img src="/img/myprojects/socialmediaapp/1.png" alt="" />{" "}
       </Link>
+      <Link to="/beachsnowvolleyball">
+        <img src="/img/myprojects/beachsnowvolleyball/1.png" alt="" />
+      </Link>
       <Link to="/gamingpackagewebsite">
         <img src="/img/myprojects/gamespackages/1.png" alt="" />
-      </Link> */}
+      </Link>
     </div>
   );
 };

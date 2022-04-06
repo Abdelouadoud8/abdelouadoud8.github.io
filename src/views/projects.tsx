@@ -106,11 +106,10 @@ const projects = [
       },
     ],
   },
-
   {
     id: 3,
-    role: "SmartTrans Mobile app",
-    title: "Medecin Quiz Web App",
+    role: "UI/UX Designer",
+    title: "SmartTrans Mobile app",
     subtitle: "Complete your transactions in seconds with one click!",
     description:
       "SmartTrans is a mobile application made a special big banking company to manage all their transactions between their offices around the world and automate all their system.",
@@ -144,6 +143,221 @@ const projects = [
           "/img/myprojects/smarttrans/5.png",
           "/img/myprojects/smarttrans/6.png",
           "/img/myprojects/smarttrans/7.png",
+        ],
+      },
+    ],
+  },
+  {
+    id: 4,
+    role: "UI/UX Designer",
+    title: "Said Etudes web app",
+    subtitle: "The easiest way to get your studies visa abroad.",
+    description:
+      "This web application is made to help a company specialized in getting visa and help students get accpeted in other countries, by facilitating the process to the very low level and manage complicated applications.",
+    cover: "/img/myprojects/saidetudes/1.png",
+    sections: [
+      {
+        id: "01",
+        title: "The Challenge",
+        subtitle: "Why we did this work?",
+        description:
+          "After making a huge success, the company decided to change from social media and automate their work system, since managing clients throw social media is not such a professional way, this is why we made this plateform where all agents can work together and also company can keep track of all process between students and agents and also process of application of students alone.",
+        images: ["/img/myprojects/saidetudes/1.png"],
+      },
+      {
+        id: "02",
+        title: "Graphic chart",
+        subtitle: "What about fonts? colors?",
+        description:
+          "Colors used are some fresh colors that goes with students rang age and gives a sence of confidence and trust. For the typography, we used a usual font poppins combined with some Inter.",
+        images: ["/img/myprojects/saidetudes/2.png"],
+      },
+      {
+        id: "03",
+        title: "Landing Page",
+        subtitle: "A modern minimalist landing page",
+        description:
+          " The landing page has been designed to attract the student, showcase what the website offers, multiple destinations and programs included, pricing, some clients testimonials and also an explanation video.",
+        images: ["/img/myprojects/saidetudes/3.png"],
+      },
+      {
+        id: "04",
+        title: "General view - before login",
+        subtitle: "Giving more options for user",
+        description:
+          "In this part, any user even without an account can get more information about the company, to get their trust and insure credibility in addition to multiple ways of contact in case of need for more help.",
+        images: [
+          "/img/myprojects/saidetudes/4.png",
+          "/img/myprojects/saidetudes/5.png",
+        ],
+      },
+      {
+        id: "05",
+        title: "Login / Sign up",
+        subtitle: "A modern & simple login",
+        description:
+          "The user has the ability to sign in and sign up to his account and also to reset his password.",
+        images: [
+          "/img/myprojects/saidetudes/6.png",
+          "/img/myprojects/saidetudes/7.png",
+        ],
+      },
+      {
+        id: "06",
+        title: "Logged in",
+        subtitle: "User Side Workflow",
+        description:
+          "The design include both user and admin side, in the next section, we will present the user side workflow including the mail functionnalities and path to follow to finish the basic tasks. Main goal of the user is to login, find a program and apply for it, after finishing the payment, the user will have a chat support from the agent until finishing all application process.",
+        images: [
+          "/img/myprojects/saidetudes/8.png",
+          "/img/myprojects/saidetudes/9.png",
+          "/img/myprojects/saidetudes/10.png",
+          "/img/myprojects/saidetudes/11.png",
+          "/img/myprojects/saidetudes/12.png",
+          "/img/myprojects/saidetudes/13.png",
+          "/img/myprojects/saidetudes/14.png",
+          "/img/myprojects/saidetudes/15.png",
+        ],
+      },
+      {
+        id: "07",
+        title: "Logged in",
+        subtitle: "Admin Side",
+        description:
+          "The admin has the ability to manage all the website by adding/editing and removing (country/unniversity/program...), manage users and also manage payments and applications. After submitting an application with successful payment the agent will take care of the rest of the process and keep the student updated.",
+        images: [
+          "/img/myprojects/saidetudes/16.png",
+          "/img/myprojects/saidetudes/17.png",
+          "/img/myprojects/saidetudes/18.png",
+          "/img/myprojects/saidetudes/19.png",
+          "/img/myprojects/saidetudes/20.png",
+          "/img/myprojects/saidetudes/21.png",
+          "/img/myprojects/saidetudes/22.png",
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    role: "UI/UX Designer",
+    title: "Beach & Snow Volleyball",
+    subtitle: "A fresh re-design for french beach & snow volleyball website",
+    description:
+      "A website related with a mobile application for a new fresh design of the official french beach & snow volley website, this was a design for a client participating in a competition for the best re-design for the website, and hopefully the client was completely satisfied and that helped him win the prize.",
+    cover: "/img/myprojects/beachsnowvolleyball/1.png",
+    sections: [
+      {
+        id: "01",
+        title: "The Challenge",
+        subtitle: "Why we did this work?",
+        description:
+          "My client was participating in a competition for the best re-design of the official french beach & snow volleyball website, he asked me to do the work following the same graphic chart. The main vision is to make a modern and clean website and reinforce it with a mobile application containing pretty much the same content.",
+        images: ["/img/myprojects/beachsnowvolleyball/1.png"],
+      },
+      {
+        id: "02",
+        title: "Graphic chart",
+        subtitle: "What about fonts? colors?",
+        description:
+          "We used the same font and colors for both mobile and web versions to keep the consistency of course, for the font we used a mix of the Inter and Sarala nter and for their decoration that goes with the theme and their consistency together, for the colors, they were provided by the client regarding the colors of the old website design.",
+        images: ["/img/myprojects/beachsnowvolleyball/2.png"],
+      },
+      {
+        id: "03",
+        title: "UI screens & parts",
+        subtitle: "What does the work includes?",
+        description:
+          "The work includes generally all the information and actuality about both beach & snow volleyball including tournaments, leagues, players, media and even a shop section, every section is detailled for ex. every player with all his statistics, each leagues with ranking and tables...",
+        images: [
+          "/img/myprojects/beachsnowvolleyball/3.png",
+          "/img/myprojects/beachsnowvolleyball/4.png",
+          "/img/myprojects/beachsnowvolleyball/5.png",
+          "/img/myprojects/beachsnowvolleyball/6.png",
+          "/img/myprojects/beachsnowvolleyball/7.png",
+        ],
+      },
+    ],
+  },
+  {
+    id: 6,
+    role: "UI/UX Designer",
+    title: "Social Media Application",
+    subtitle: "Expend your network, make new relations",
+    description:
+      "A social media application that helps people make new relations with people and extend their network with a cool theme that help the user having a funny and relaxinng experience.",
+    cover: "/img/myprojects/socialmediaapp/1.png",
+    sections: [
+      {
+        id: "01",
+        title: "The Challenge",
+        subtitle: "Why we did this work?",
+        description:
+          "The client was searching for a solution to make people interact more with others and push them to make new friendships, know new people and the most important is enjoying their time while doing thi. In another side, the solution has to be made in a modern way that attract people and gives an idea about the daily improvement of the world.",
+        images: ["/img/myprojects/socialmediaapp/1.png"],
+      },
+      {
+        id: "02",
+        title: "Graphic chart",
+        subtitle: "What about fonts? colors?",
+        description:
+          "For our colors, we used fresh modern colors that sends the idea of joy and love, the design includes both light and dark versions, the colors choice was completely based on the idea of giving the user the sense of love and more emotions that impacts him and help spreading love among people.",
+        images: [
+          "/img/myprojects/socialmediaapp/5.png",
+          "/img/myprojects/socialmediaapp/6.png",
+        ],
+      },
+      {
+        id: "03",
+        title: "UI screens & parts",
+        subtitle: "What does the work includes?",
+        description:
+          "As mentioned before the application is available in both light & dark modes, by openinng it you will face a simple login and sigup pages, after signing up you will get into the home page where you can find people, like them and share your interests, the profiles are displayed in an attractive way that allows users to know others, like them and even contacting them throw a chat section, the user has the ability to edit and customize their profiles.",
+        images: [
+          "/img/myprojects/socialmediaapp/2.png",
+          "/img/myprojects/socialmediaapp/3.png",
+          "/img/myprojects/socialmediaapp/4.png",
+          "/img/myprojects/socialmediaapp/6.png",
+          "/img/myprojects/socialmediaapp/7.png",
+          "/img/myprojects/socialmediaapp/8.png",
+        ],
+      },
+    ],
+  },
+  {
+    id: 7,
+    role: "UI/UX Designer",
+    title: "Gaming Package & stream Website",
+    subtitle: "Get your best game packages and live the streaming",
+    description:
+      "A website destinated to gamers and people interested in gaming & streaming packages allows the user to purchase their favorite game's packages with a marketplace full of customizable packages and components related with games & streaming modes .",
+    cover: "/img/myprojects/gamespackages/1.png",
+    sections: [
+      {
+        id: "01",
+        title: "The Challenge",
+        subtitle: "Why we did this work?",
+        description:
+          "The client was searching for a solution to upload customizable and pre-made packages for multiple use (gaming, streaming...), attracting more gamers to purchase them by providing a simple marketplace that showcase all products.",
+        images: ["/img/myprojects/gamespackages/1.png"],
+      },
+      {
+        id: "02",
+        title: "Graphic chart",
+        subtitle: "What about fonts? colors?",
+        description:
+          "For our colors, we used a fresh yellow combined with a dark-gray as main colors, and a light blue as secondary color. The colors areinspired for giving the idea of joy and activity. For the fonts, we combined the Inter and Sarala fonts to put some consistency.",
+        images: ["/img/myprojects/gamespackages/2.png"],
+      },
+      {
+        id: "03",
+        title: "UI screens & parts",
+        subtitle: "What does the work includes?",
+        description:
+          "The work includes a landing page with multiples sections to showcase the companies services and also attract the user's to their products, it also includes a marketplace for showcasinng products and a page for each product details and orders.",
+        images: [
+          "/img/myprojects/gamespackages/3.png",
+          "/img/myprojects/gamespackages/4.png",
+          "/img/myprojects/gamespackages/5.png",
         ],
       },
     ],
