@@ -1,32 +1,28 @@
-import { useEffect } from "react";
-import react from "react";
-import { Link } from "react-router-dom";
+import { FC, useEffect } from "react";
+import ProjectPreview from "./ProjectPreview";
+import projects from "../../views/projects";
+import { Row } from "reactstrap";
 
-const MyProjects: react.FC = () => {
+interface Props {
+  id?: number;
+}
+
+const MyProjects: FC<Props> = ({ id }) => {
   return (
-    <div className="work__projects" onClick={ScrollToTop()}>
-      <Link to="/medicol">
-        <img src="/img/myprojects/uikitmedicol/1.png" alt="" />
-      </Link>
-      <Link to="/medecinQuiz">
-        <img src="/img/myprojects/medecinquiz/1.png" alt="" />
-      </Link>
-      <Link to="/smarttrans">
-        <img src="/img/myprojects/smarttrans/1.png" alt="" />
-      </Link>
-      <Link to="/saidetudes">
-        <img src="/img/myprojects/saidetudes/1.png" alt="" />
-      </Link>
-      <Link to="/socialmediaapp">
-        <img src="/img/myprojects/socialmediaapp/1.png" alt="" />{" "}
-      </Link>
-      <Link to="/beachsnowvolleyball">
-        <img src="/img/myprojects/beachsnowvolleyball/1.png" alt="" />
-      </Link>
-      <Link to="/gamingpackagewebsite">
-        <img src="/img/myprojects/gamespackages/1.png" alt="" />
-      </Link>
-    </div>
+    <Row xs={3} className="work__projects" onClick={ScrollToTop()}>
+      {projects.map((data, key) => {
+        return (
+          <div>
+            <ProjectPreview
+              projectLink={data.projectLink}
+              imagepath={data.cover}
+              title={data.title}
+              role={data.role}
+            ></ProjectPreview>
+          </div>
+        );
+      })}
+    </Row>
   );
 };
 

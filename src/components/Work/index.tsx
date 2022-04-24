@@ -3,7 +3,7 @@ import MyProjects from "./MyProjects";
 
 const Work: FC = () => {
   return (
-    <div>
+    <div className="work">
       <div className="work__header">
         <img src="/img/mypicture.jpeg" alt="" />
         <span>Hi, I’m Abdelouadoud 🤙</span>

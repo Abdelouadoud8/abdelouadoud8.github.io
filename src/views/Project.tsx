@@ -12,7 +12,6 @@ const Project: FC<Props> = ({ id }) => {
   return (
     <div className="projectdetails__pageform">
       {projects.map((data, key) => {
-        console.log(id);
         if (data.id === id) {
           return (
             <ProjectDetails
