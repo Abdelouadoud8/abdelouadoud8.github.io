@@ -51,6 +51,80 @@ const projects = [
   {
     id: 2,
     role: "UI/UX designer",
+    title: "Momyz mobile application",
+    subtitle: "Order your gift and send it anywhere with one click",
+    description:
+      "Momyz is a set of applications made to link the stores, delivery and clients together in one service, it businesses to manage their stores, products and sales. It also facilitate the work of delivery men with guaranteed service. It is also destinated for user, who want to purchase prizes of gifts and send it someone with just an online service.",
+    cover: "/img/myprojects/momyz/1.png",
+    projectLink: "/medicol",
+    sections: [
+      {
+        id: "01",
+        title: "About the project",
+        subtitle: "Applications overview",
+        description:
+          "Momyz is a project composed of 3 mobile applications related to perform a specific service, all 3 applications have a similar UX to help multiple users adapt with them, whether you are a store owner, a delivery man or a client, we found solutions for your problems, below you will find common problems and the solution we found for each problem.",
+        images: ["/img/myprojects/momyz/2.png"],
+      },
+      {
+        id: "02",
+        title: "Steps",
+        subtitle: "Design process",
+        description:
+          "During the design of 3 applications, we performed many steps [Scope definition - UX research - User flow - Wireframing - UI Design - Design system - prototyping - Usability testing - Design updates] to get a final product that satisfies our clients and complies with our end user standars and criteria.",
+        images: ["/img/myprojects/momyz/3.png"],
+      },
+      {
+        id: "03",
+        title: "Users workflow",
+        subtitle: "Flow Chart",
+        description:
+          "Since the applications are destinated to multiple users audience, we had to divide each application with its flow chart to determine functionnalities, screens and realtions between them, here you will finnd an overview for -Store application- flow chart.",
+        images: ["/img/myprojects/momyz/4.png"],
+      },
+      {
+        id: "04",
+        title: "Wireframing",
+        subtitle: "What to do before design?",
+        description:
+          "After finishing our UX research and User Flow, we started the wireframe to determine the structure of our screens, the items places and how to organize and keep consistency throw the pages, the wireframing part is just to show a general and minimal idea about the project before the design phase.",
+        images: ["/img/myprojects/momyz/5.png"],
+      },
+      {
+        id: "05",
+        title: "Graphic chart",
+        subtitle: "What about colors & font?",
+        description:
+          "The application idea is gifts, so it is all about joy, love and kindness, for this we choosed the pink as our main color as it describes love and kindness and also gives the idea of sharing for users. We also used the Gilroy font, a flexible font to give more flexibility and joy to our user experience. We used the same colors and font for all 3 applciations to keep the consistency and also the branding.",
+        images: ["/img/myprojects/momyz/6.png"],
+      },
+      {
+        id: "06",
+        title: "User Interface Design",
+        subtitle: "UI Screens & parts",
+        description:
+          "Here you will find some parts of the design of each application, you will notice that we made our best to keep consistency between applications by applying the same design style with same graphic chart.",
+        images: ["/img/myprojects/momyz/7.png"],
+      },
+      {
+        id: "07",
+        title: "Design system",
+        subtitle: "What about components?",
+        description:
+          "To facilitate our work and make it easier to collaborate, we started by implementing a design system including all important components, after finishing design we added some additional components, here you will find an overview with some components from our design system.",
+        images: ["/img/myprojects/momyz/8.png"],
+      },
+    ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
+  },
+
+  {
+    id: 3,
+    role: "UI/UX designer",
     title: "Medecin Quiz Web App",
     subtitle: "Revise your lessons, try exams and rock your studies",
     description:
@@ -119,7 +193,7 @@ const projects = [
     },
   },
   {
-    id: 3,
+    id: 4,
     role: "UI/UX Designer",
     title: "SmartTrans Mobile app",
     subtitle: "Complete your transactions in seconds with one click!",
@@ -166,7 +240,7 @@ const projects = [
     },
   },
   {
-    id: 4,
+    id: 5,
     role: "UI/UX Designer",
     title: "Said Etudes web app",
     subtitle: "The easiest way to get your studies visa abroad.",
@@ -267,7 +341,7 @@ const projects = [
     },
   },
   {
-    id: 5,
+    id: 6,
     role: "UI/UX Designer",
     title: "Beach & Snow Volleyball",
     subtitle: "A fresh re-design for french beach & snow volleyball website",
@@ -314,7 +388,7 @@ const projects = [
     },
   },
   {
-    id: 6,
+    id: 7,
     role: "UI/UX Designer",
     title: "Social Media Application",
     subtitle: "Expend your network, make new relations",
@@ -365,7 +439,7 @@ const projects = [
     },
   },
   {
-    id: 7,
+    id: 8,
     role: "UI/UX Designer",
     title: "Gaming Package & stream Website",
     subtitle: "Get your best game packages and live the streaming",

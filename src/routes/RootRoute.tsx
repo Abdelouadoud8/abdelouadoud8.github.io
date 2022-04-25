@@ -10,26 +10,29 @@ const RootRoute: FC = () => {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
-        <Route path="/medicol">
+        <Route path="/momyz">
           <Project id={1}></Project>
         </Route>
-        <Route path="/medecinquiz">
+        <Route path="/medicol">
           <Project id={2}></Project>
         </Route>
-        <Route path="/smarttrans">
+        <Route path="/medecinquiz">
           <Project id={3}></Project>
         </Route>
-        <Route path="/saidetudes">
+        <Route path="/smarttrans">
           <Project id={4}></Project>
         </Route>
-        <Route path="/beachsnowvolleyball">
+        <Route path="/saidetudes">
           <Project id={5}></Project>
         </Route>
-        <Route path="/socialmediaapp">
+        <Route path="/beachsnowvolleyball">
           <Project id={6}></Project>
         </Route>
-        <Route path="/gamingpackagewebsite">
+        <Route path="/socialmediaapp">
           <Project id={7}></Project>
+        </Route>
+        <Route path="/gamingpackagewebsite">
+          <Project id={8}></Project>
         </Route>
       </Switch>
     </Router>
