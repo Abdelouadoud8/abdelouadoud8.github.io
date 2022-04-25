@@ -42,6 +42,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 2,
@@ -107,6 +112,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 3,
@@ -149,6 +159,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 4,
@@ -194,6 +209,11 @@ const projects = [
           "/img/myprojects/saidetudes/4.png",
           "/img/myprojects/saidetudes/5.png",
         ],
+        quote: {
+          person: "Joseph Duffy",
+          description:
+            "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        },
       },
       {
         id: "05",
@@ -240,6 +260,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 5,
@@ -282,6 +307,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 6,
@@ -328,6 +358,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
   {
     id: 7,
@@ -368,6 +403,11 @@ const projects = [
         ],
       },
     ],
+    quote: {
+      person: "Joseph Duffy",
+      description:
+        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+    },
   },
 ];
 
