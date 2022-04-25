@@ -22,7 +22,7 @@
     align-items: right;
     padding-top: 1.5rem;
     &-link {
-      color: $gray-2 !important;
+      color: $gray-2;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 1.6rem;
@@ -125,7 +125,7 @@
           height: 0.6rem;
           border-radius: 0 !important;
           border: 0 !important;
-          background-color: #eb5757 !important;
+          background-color: $main-color !important;
           margin: 1.3rem 0rem;
           opacity: 0;
           transform: translateY(30px);
@@ -165,9 +165,19 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 60%;
-      img {
-        width: 14rem;
+
+      #logo1 {
+        width: 20rem;
+      }
+      #logo2 {
+        width: 12rem;
+      }
+      #logo3 {
+        width: 12%;
+        height: 12%;
+      }
+      #logo4 {
+        width: 20rem;
       }
     }
   }
@@ -540,4 +550,30 @@
 
 #beforetitle {
   margin-bottom: 0rem;
+}
+
+.mycv {
+  width: 20rem;
+  height: 5rem;
+  text-align: center;
+  display: inline-block;
+  background: $main-color;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: middle;
+
+  &:hover {
+    background: $main-color-hover;
+    color: white;
+  }
+
+  &:active {
+    color: white;
+    background-color: $main-color-click;
+  }
 }

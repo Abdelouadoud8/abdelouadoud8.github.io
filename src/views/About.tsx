@@ -4,6 +4,7 @@ import PersonalInfos from "../components/AboutMe/PersonalInfos";
 import Topics from "../components/AboutMe/Topics";
 import Footer from "../components/Foote";
 import Header from "../components/Header";
+import PrimaryButton from "../components/PrimaryButton";
 
 const About: FC = () => {
   return (
@@ -90,7 +91,12 @@ const About: FC = () => {
             <span>abdelouadoud.mahdaoui@gmail.com</span>
           </div>
         </div>
-        <Button>Get in touch</Button>
+        <PrimaryButton
+          link="/img/MahdaouiAbdelouadoud_CV.pdf"
+          download="MahdaouiAbdelouadoud_CV.pdf"
+          text="Download CV"
+          target="_blank"
+        ></PrimaryButton>
       </div>
       <Footer />
     </div>

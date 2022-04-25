@@ -90,7 +90,6 @@ const Project: FC<Props> = ({ id }) => {
                     fill="#BDBDBD"
                   />
                 </svg>
-
                 <p>{data.quote?.description}</p>
                 <span>{data.quote?.person}</span>
               </div>

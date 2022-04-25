@@ -16,14 +16,14 @@ const Work: FC = () => {
       <div className="work__clients">
         <h1>Clients</h1>
         <div className="work__clients-logos">
-          <img src="/img/clientlogo1.png" alt="" />
-          <img src="/img/clientlogo1.png" alt="" />
-          <img src="/img/clientlogo1.png" alt="" />
-          <img src="/img/clientlogo1.png" alt="" />
+          <img id="logo1" src="/img/logos/NxtNow.png" alt="" />
+          <img id="logo2" src="/img/logos/momyz.svg" alt="" />
+          <img id="logo3" src="/img/logos/objectifDeck.png" alt="" />
+          <img id="logo4" src="/img/logos/hoskadev.svg" alt="" />
         </div>
       </div>
 
-      <div className="work__testimonials">
+      <div id="testimonials" className="work__testimonials">
         <h1>Trusted by brands all over the world</h1>
         <div className="work__testimonials-content">
           <img src="/img/testimonial.png" alt="" />

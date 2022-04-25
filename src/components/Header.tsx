@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React, { FC, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Header: FC = () => {
   return (
-    <div className="header">
+    <div className="header" onClick={ScrollToTop()}>
       <Link to="/" className="header__logo">
         <span>Abdelouadoud.8</span>
       </Link>
@@ -20,12 +20,12 @@ const Header: FC = () => {
           </Link>
         </li>
         <li className="header__list-item">
-          <Link to="/testimonials" className="header__list-link">
+          <Link to="/" className="header__list-link">
             testimonials
           </Link>
         </li>
         <li className="header__list-item">
-          <Link to="/contact" className="header__list-link">
+          <Link to="/about" className="header__list-link">
             contact
           </Link>
         </li>
@@ -35,3 +35,9 @@ const Header: FC = () => {
 };
 
 export default Header;
+
+const ScrollToTop: any = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+};
