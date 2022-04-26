@@ -10,10 +10,10 @@ const RootRoute: FC = () => {
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
-        <Route path="/momyz">
+        <Route path="/medicol">
           <Project id={1}></Project>
         </Route>
-        <Route path="/medicol">
+        <Route path="/momyz">
           <Project id={2}></Project>
         </Route>
         <Route path="/medecinquiz">

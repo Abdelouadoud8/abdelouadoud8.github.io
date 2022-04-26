@@ -1,5 +1,5 @@
-import React, { FC } from "react";
-import { Button, Card } from "reactstrap";
+import { FC } from "react";
+import { Card } from "reactstrap";
 import PersonalInfos from "../components/AboutMe/PersonalInfos";
 import Topics from "../components/AboutMe/Topics";
 import Footer from "../components/Foote";

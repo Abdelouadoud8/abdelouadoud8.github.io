@@ -8,6 +8,16 @@ const projects = [
       "Medicol is a mobile application dedicated to all users that want to control their medical life including their medical folders, appointments with doctors, access to all pharmacies and also a space for exchange with doctors and people. If you are a dad or a mom, Medicol allows you to follow your son's vaccination and the follow-up with his doctor",
     cover: "/img/myprojects/uikitmedicol/1.png",
     projectLink: "/medicol",
+    topics: [
+      { title: "Date", content: "May - Juin 2021" },
+      { title: "Role", content: "UI/UX designer" },
+      { title: "Agency", content: "Medicol SAS" },
+      {
+        title: "Deliverables",
+        content:
+          "Mobile UI kit, customizable components, pre-made layouts, figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -56,7 +66,17 @@ const projects = [
     description:
       "Momyz is a set of applications made to link the stores, delivery and clients together in one service, it businesses to manage their stores, products and sales. It also facilitate the work of delivery men with guaranteed service. It is also destinated for user, who want to purchase prizes of gifts and send it someone with just an online service.",
     cover: "/img/myprojects/momyz/1.png",
-    projectLink: "/medicol",
+    projectLink: "/momyz",
+    topics: [
+      { title: "Date", content: "March - April 2022" },
+      { title: "Role", content: "UI/UX designer" },
+      { title: "Agency", content: "HoskaDev company" },
+      {
+        title: "Deliverables",
+        content:
+          "Mobile UI design, iPhone 11 Pro mockups, complete prototype and figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -121,7 +141,6 @@ const projects = [
         "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
     },
   },
-
   {
     id: 3,
     role: "UI/UX designer",
@@ -131,6 +150,15 @@ const projects = [
       "Medecin Quiz is a web application dedicated for dental students, it contains all years modules including lectures and exams which allows student to revise and prepare their exams, the plateform provide an essaie version before paying to unlock all exams and content.",
     cover: "/img/myprojects/medecinquiz/1.png",
     projectLink: "/medecinquiz",
+    topics: [
+      { title: "Date", content: "December 2021 - January 2022" },
+      { title: "Agency", content: "Blue Dental Clinic" },
+      { title: "Role", content: "UI/UX designer" },
+      {
+        title: "Deliverable",
+        content: "Web UI design, complete prototype and figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -201,6 +229,16 @@ const projects = [
       "SmartTrans is a mobile application made a special big banking company to manage all their transactions between their offices around the world and automate all their system.",
     cover: "/img/myprojects/smarttrans/1.png",
     projectLink: "/smarttrans",
+    topics: [
+      { title: "Date", content: "October - December 2021" },
+      { title: "Agency", content: "HoskaDev company" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Deliverable",
+        content:
+          "Mobile UI design, iPhone 11 Pro mockups, complete prototype and figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -248,6 +286,15 @@ const projects = [
       "This web application is made to help a company specialized in getting visa and help students get accpeted in other countries, by facilitating the process to the very low level and manage complicated applications.",
     cover: "/img/myprojects/saidetudes/1.png",
     projectLink: "/saidetudes",
+    topics: [
+      { title: "Date", content: "December 2021 - January 2022" },
+      { title: "Client", content: "Said Travel" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Deliverable",
+        content: "Web application UI and complete prototype.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -349,6 +396,16 @@ const projects = [
       "A website related with a mobile application for a new fresh design of the official french beach & snow volley website, this was a design for a client participating in a competition for the best re-design for the website, and hopefully the client was completely satisfied and that helped him win the prize.",
     cover: "/img/myprojects/beachsnowvolleyball/1.png",
     projectLink: "/beachsnowvolleyball",
+    topics: [
+      { title: "Date", content: "July - August 2020" },
+      { title: "Platforms", content: "Both web and mobile" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Deliverable",
+        content:
+          "Web app design, mobile app design, iPhone 11 Pro mockups, Wireframes, prototype, figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -396,6 +453,19 @@ const projects = [
       "A social media application that helps people make new relations with people and extend their network with a cool theme that help the user having a funny and relaxinng experience.",
     cover: "/img/myprojects/socialmediaapp/1.png",
     projectLink: "/socialmediaapp",
+    topics: [
+      { title: "Date", content: "April 2021" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Plateforms",
+        content: "Destinated for mobile - android & iOS -",
+      },
+      {
+        title: "Deliverable",
+        content:
+          "Mobile app design, iPhone 11 Pro mockups, Wireframes, prototype, figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
@@ -447,6 +517,15 @@ const projects = [
       "A website destinated to gamers and people interested in gaming & streaming packages allows the user to purchase their favorite game's packages with a marketplace full of customizable packages and components related with games & streaming modes .",
     cover: "/img/myprojects/gamespackages/1.png",
     projectLink: "/gamingpackagewebsite",
+    topics: [
+      { title: "Date", content: "April 2021" },
+      { title: "Platforms", content: "Web design" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Deliverable",
+        content: "Web app design, Wireframes, prototype, figma source file.",
+      },
+    ],
     sections: [
       {
         id: "01",
