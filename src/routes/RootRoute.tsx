@@ -1,12 +1,13 @@
-import React, { FC } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { FC } from "react";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
 import About from "../views/About";
 import Home from "../views/Home";
 import Project from "../views/Project";
+import { HashRouter } from "react-router-dom";
 
 const RootRoute: FC = () => {
   return (
-    <Router>
+    <HashRouter>
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about" component={About} exact />
@@ -35,7 +36,7 @@ const RootRoute: FC = () => {
           <Project id={8}></Project>
         </Route>
       </Switch>
-    </Router>
+    </HashRouter>
   );
 };
 

@@ -20,24 +20,24 @@ const Footer: FC = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/img/linkedin.svg" alt="linkedin" />
+          <img src="/img/Linkedin.svg" alt="linkedin" />
         </a>
         <a
           href="https://github.com/Abdelouadoud8"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/img/github.svg" alt="github" />
+          <img src="/img/Github.svg" alt="github" />
         </a>
         <a
           href="https://twitter.com/AbdElWadoud_8"
           target="_blank"
           rel="noreferrer"
         >
-          <img src="/img/twitter.svg" alt="twitter" />
+          <img src="/img/Twitter.svg" alt="twitter" />
         </a>
         <a href="/">
-          <img src="/img/gmail.svg" alt="gmail" />
+          <img src="/img/Gmail.svg" alt="gmail" />
         </a>
       </div>
     </div>
