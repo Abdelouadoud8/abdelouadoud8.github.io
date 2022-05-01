@@ -60,7 +60,7 @@
 .work {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center !important;
 
   &__header {
     font-family: $font-primary;
@@ -72,7 +72,7 @@
     }
 
     & img {
-      width: 7%;
+      width: 12%;
       border-radius: 90%;
       margin-bottom: 4rem;
       @media screen and (max-width: $bp-small) {
@@ -104,26 +104,29 @@
   &__projects {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
-    text-align: center;
-    margin-top: 16rem !important;
-    margin: auto;
+    width: 78.35%;
+    padding: auto;
+    text-align: center !important;
+    margin-top: 12rem !important;
+    align-items: center !important;
 
     @media screen and (max-width: $bp-small) {
+      display: flex;
+      flex-wrap: wrap;
       margin-top: 8rem !important;
     }
 
     &-listitem {
-      width: 48rem;
+      width: 47rem;
       height: 30rem;
       position: relative;
       overflow: hidden;
       transition: all 0.3s ease-out;
       background: radial-gradient(#111 50%, #000 100%) !important;
-
+      align-items: center !important;
       @media screen and (max-width: $bp-small) {
-        width: 40rem;
         height: 27rem;
+        align-items: center !important;
       }
 
       img {
@@ -133,7 +136,6 @@
         transform: scale(1);
         transition: all 0.3s ease-out;
         @media screen and (max-width: $bp-small) {
-          width: 100%;
           height: 27rem;
         }
       }
@@ -569,7 +571,7 @@
         font-size: 2.4rem;
         font-weight: 600;
         @media screen and (max-width: $bp-small) {
-          font-size: 1.8rem;
+          font-size: 1.6rem;
         }
       }
 
@@ -579,7 +581,12 @@
         color: $gray-4;
         margin-top: 1.2rem !important;
         @media screen and (max-width: $bp-small) {
-          font-size: 1.2rem;
+          font-size: 1rem;
+          text-overflow: ellipsis;
+          max-width: 80%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 1rem !important;
         }
 
         &:hover {
@@ -589,7 +596,7 @@
 
       & a {
         text-decoration: none;
-        margin-top: 1.2rem !important;
+        margin-top: 1rem !important;
       }
     }
   }

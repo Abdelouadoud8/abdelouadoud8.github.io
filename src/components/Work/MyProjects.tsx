@@ -11,14 +11,12 @@ const MyProjects: FC<Props> = ({ id }) => {
     <div className="work__projects" onClick={ScrollToTop()}>
       {projects.map((data, key) => {
         return (
-          <div>
-            <ProjectPreview
-              projectLink={data.projectLink}
-              imagepath={data.cover}
-              title={data.title}
-              role={data.role}
-            ></ProjectPreview>
-          </div>
+          <ProjectPreview
+            projectLink={data.projectLink}
+            imagepath={data.cover}
+            title={data.title}
+            role={data.role}
+          ></ProjectPreview>
         );
       })}
     </div>

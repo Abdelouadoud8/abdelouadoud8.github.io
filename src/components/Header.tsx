@@ -10,7 +10,7 @@ const Header: FC = () => {
 
       <ul className="header__list">
         <li className="header__list-item">
-          <Link to="/" className="header__list-link">
+          <Link to="/" className="header__list-link header__list-item3">
             work
           </Link>
         </li>
