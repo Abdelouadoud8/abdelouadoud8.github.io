@@ -51,29 +51,40 @@
 
   &__header {
     font-family: $font-primary;
-    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 18.125rem;
+    @media screen and (max-width: $bp-small) {
+      margin-top: 16rem;
+    }
 
     & img {
       width: 7%;
       border-radius: 90%;
       margin-bottom: 3rem;
+      @media screen and (max-width: $bp-small) {
+        margin-bottom: 2rem;
+      }
     }
 
     & span {
       font-weight: 400;
       font-size: 2.2rem;
       margin-bottom: 3rem;
+      @media screen and (max-width: $bp-small) {
+        font-size: 1.7rem;
+        margin-bottom: 2rem;
+      }
     }
 
     & p {
       font-weight: 500;
       font-size: 2.4rem;
-      text-align: center;
       width: 50%;
+      @media screen and (max-width: $bp-small) {
+        font-size: 1.6rem;
+        width: 82%;
+      }
     }
   }
 
@@ -82,7 +93,7 @@
     flex-wrap: wrap;
     width: 80%;
     text-align: center;
-    margin-top: 12rem !important;
+    margin-top: 16rem !important;
     margin: auto;
 
     @media screen and (max-width: $bp-small) {
@@ -181,19 +192,29 @@
   &__clients {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 24rem;
     width: 100%;
+    @media screen and (max-width: $bp-small) {
+      margin-top: 15rem;
+    }
 
     & h1 {
       font-size: 4.5rem;
+      @media screen and (max-width: $bp-small) {
+        font-size: 3rem;
+      }
     }
 
     &-logos {
-      margin-top: 9rem;
+      margin-top: 10rem;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      @media screen and (max-width: $bp-small) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 3rem;
+      }
 
       #logo1 {
         width: 20rem;
@@ -202,8 +223,13 @@
         width: 12rem;
       }
       #logo3 {
-        width: 12%;
-        height: 12%;
+        width: 15% !important;
+        height: 15% !important;
+        width: auto;
+        @media screen and (max-width: $bp-small) {
+          width: 24% !important;
+          height: 24% !important;
+        }
       }
       #logo4 {
         width: 20rem;
@@ -214,32 +240,57 @@
   &__testimonials {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-top: 16.75rem;
     margin-bottom: 15rem;
 
+    @media screen and (max-width: $bp-small) {
+      margin-top: 12rem;
+      margin-bottom: 10rem;
+    }
+
     & h1 {
       font-size: 5rem;
-      width: 45rem;
+      width: 65rem;
       font-weight: 600;
-      text-align: center;
+      @media screen and (max-width: $bp-small) {
+        width: 35rem;
+        font-size: 2.6rem;
+        text-align: center;
+      }
     }
 
     &-content {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 110%;
       margin-top: 9.25rem;
+      @media screen and (max-width: $bp-small) {
+        flex-direction: column;
+      }
+    }
+
+    & img {
+      margin-right: 16rem;
+      @media screen and (max-width: $bp-small) {
+        width: 30rem;
+        margin: auto;
+      }
     }
     &-body {
       width: 85rem;
       margin-top: 7rem;
+      @media screen and (max-width: $bp-small) {
+        width: 100%;
+        text-align: center;
+      }
 
       & > span {
         color: $black;
         font-size: 4rem;
         font-weight: 600;
+        @media screen and (max-width: $bp-small) {
+          font-size: 2rem;
+        }
       }
 
       & > p {
@@ -247,20 +298,38 @@
         font-size: 2rem;
         color: $gray-3;
         line-height: 4rem;
+        @media screen and (max-width: $bp-small) {
+          margin-top: 2.5rem;
+          font-size: 1.2rem;
+          line-height: 2rem;
+        }
       }
 
       &--person {
         margin-top: 8rem;
+        @media screen and (max-width: $bp-small) {
+          margin-top: 2rem;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
 
         &-name {
           font-size: 2rem;
           color: $black;
+          @media screen and (max-width: $bp-small) {
+            font-size: 1.7rem;
+          }
         }
 
         &-position {
           font-size: 2rem;
           color: $gray-4;
           margin-left: 3rem;
+          @media screen and (max-width: $bp-small) {
+            font-size: 1.5rem;
+            margin: 1rem auto;
+          }
         }
       }
     }
