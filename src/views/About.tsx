@@ -51,8 +51,6 @@ const About: FC = () => {
           <span>Office automation</span>
           <p>Microsoft Office, LaTeX</p>
         </Topics>
-      </div>
-      <div className="about__topics2 about__topics">
         <Topics title="awards">
           <span>MLH - Major league hacking 2018</span>
           <p>2nd place</p>
