@@ -78,9 +78,16 @@
   }
 
   &__projects {
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
-    align-items: center;
+    text-align: center;
     margin-top: 12rem !important;
+    margin: auto;
+
+    @media screen and (max-width: $bp-small) {
+      margin-top: 6rem;
+    }
 
     &-listitem {
       width: 48rem;
@@ -90,12 +97,21 @@
       transition: all 0.3s ease-out;
       background: radial-gradient(#111 50%, #000 100%) !important;
 
+      @media screen and (max-width: $bp-small) {
+        width: 40rem;
+        height: 27rem;
+      }
+
       img {
-        width: 48rem;
+        width: 100%;
         height: 100%;
         object-fit: cover;
         transform: scale(1);
         transition: all 0.3s ease-out;
+        @media screen and (max-width: $bp-small) {
+          width: 100%;
+          height: 27rem;
+        }
       }
 
       &--content {
@@ -111,6 +127,9 @@
           opacity: 0;
           transform: translateY(30px);
           transition: all 0.3s ease-out;
+          @media screen and (max-width: $bp-small) {
+            font-size: 2rem;
+          }
         }
 
         p {
@@ -121,6 +140,9 @@
           opacity: 0;
           transform: translateY(30px);
           transition: all 0.3s ease-out 0.1s;
+          @media screen and (max-width: $bp-small) {
+            font-size: 1.2rem;
+          }
         }
 
         &-divider {
@@ -133,6 +155,10 @@
           opacity: 0;
           transform: translateY(30px);
           transition: all 0.3s ease-out 0.1s;
+          @media screen and (max-width: $bp-small) {
+            width: 3rem;
+            height: 0.5rem;
+          }
         }
       }
 
@@ -298,8 +324,7 @@
   &__topics {
     margin-top: 6rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
     width: 85%;
 
     &-diviser {
@@ -313,11 +338,21 @@
 
     &--topiccontent {
       width: 22%;
+      margin-bottom: 6rem;
+      @media screen and (max-width: $bp-small) {
+        margin-bottom: 3rem;
+        width: 50%;
+      }
+
       & h1 {
         font-size: 1.6rem;
         text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 3px !important;
+        @media screen and (max-width: $bp-small) {
+          font-size: 1rem;
+          letter-spacing: 2px !important;
+        }
       }
 
       &-diviser {
@@ -327,17 +362,28 @@
         border-radius: 0rem !important;
         border: 0rem !important;
         margin: 1.7rem 0rem;
+
+        @media screen and (max-width: $bp-small) {
+          width: 2rem;
+          height: 0.3rem;
+        }
       }
 
       & span {
         font-size: 1.5rem;
         color: $gray-3;
         font-weight: 600;
+        @media screen and (max-width: $bp-small) {
+          font-size: 1rem;
+        }
       }
       & p {
         font-size: 1.5rem;
         color: $gray-3;
         margin-top: 0.3rem;
+        @media screen and (max-width: $bp-small) {
+          font-size: 1rem;
+        }
       }
     }
   }
@@ -424,11 +470,25 @@
   &__quote {
     padding: 10rem 0rem;
     text-align: center;
+    @media screen and (max-width: $bp-small) {
+      padding: 5rem 0rem;
+    }
+
+    svg {
+      @media screen and (max-width: $bp-small) {
+        width: 17% !important;
+      }
+    }
+
     p {
       margin: 5rem 1rem;
       font-size: 2.5rem;
       text-align: center;
       color: $black;
+      @media screen and (max-width: $bp-small) {
+        margin: 3rem 1rem;
+        font-size: 1.4rem;
+      }
     }
 
     span {
@@ -437,16 +497,22 @@
       font-weight: 600;
       letter-spacing: 0.5rem !important;
       color: $gray-3;
+      @media screen and (max-width: $bp-small) {
+        font-size: 1.3rem;
+        letter-spacing: 0.25rem !important;
+      }
     }
   }
 
   &__topics {
     margin-top: 6rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     margin-bottom: 2rem;
+    @media screen and (max-width: $bp-small) {
+      margin-top: 3rem;
+    }
   }
 
   &__header {
@@ -455,6 +521,9 @@
       text-transform: uppercase;
       font-weight: 500;
       color: $gray-3;
+      @media screen and (max-width: $bp-small) {
+        font-size: 1.5rem;
+      }
     }
 
     &-title {
@@ -462,6 +531,10 @@
       font-weight: 700;
       color: $gray-1;
       width: 50%;
+      @media screen and (max-width: $bp-small) {
+        font-size: 5rem;
+        width: 90%;
+      }
     }
 
     &-subtitle {
@@ -469,6 +542,10 @@
       font-weight: 500;
       color: $black;
       width: 65%;
+      @media screen and (max-width: $bp-small) {
+        font-size: 2rem;
+        width: 100%;
+      }
     }
 
     &-description {
@@ -478,6 +555,11 @@
       width: 65%;
       margin-top: 1.4rem;
       line-height: 2.2rem;
+      @media screen and (max-width: $bp-small) {
+        font-size: 1.2rem;
+        width: 100%;
+        line-height: 2rem;
+      }
     }
   }
 
@@ -497,6 +579,9 @@
         font-size: 8rem;
         font-weight: 700;
         color: $gray-1;
+        @media screen and (max-width: $bp-small) {
+          font-size: 6rem;
+        }
       }
 
       & h1 {
@@ -505,21 +590,35 @@
         color: $gray-3;
         letter-spacing: 4px;
         font-weight: 600;
+        @media screen and (max-width: $bp-small) {
+          font-size: 1.2rem;
+          letter-spacing: 2.5px;
+        }
       }
 
       & h2 {
         font-size: 2.8rem;
         color: $black;
         font-weight: 500;
+        @media screen and (max-width: $bp-small) {
+          font-size: 2.4rem;
+        }
       }
 
       &--paragraph {
         font-size: 1.5rem;
         color: $black;
         width: 70%;
+        @media screen and (max-width: $bp-small) {
+          font-size: 1.2rem;
+          width: 100%;
+        }
       }
       & img {
         margin-bottom: 4rem !important;
+        @media screen and (max-width: $bp-small) {
+          margin-top: 2rem;
+        }
       }
     }
   }

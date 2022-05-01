@@ -1,7 +1,6 @@
 import { FC, useEffect } from "react";
 import ProjectPreview from "./ProjectPreview";
 import projects from "../../views/projects";
-import { Row } from "reactstrap";
 
 interface Props {
   id?: number;
@@ -9,7 +8,7 @@ interface Props {
 
 const MyProjects: FC<Props> = ({ id }) => {
   return (
-    <Row xs={3} className="work__projects" onClick={ScrollToTop()}>
+    <div className="work__projects" onClick={ScrollToTop()}>
       {projects.map((data, key) => {
         return (
           <div>
@@ -22,7 +21,7 @@ const MyProjects: FC<Props> = ({ id }) => {
           </div>
         );
       })}
-    </Row>
+    </div>
   );
 };
 

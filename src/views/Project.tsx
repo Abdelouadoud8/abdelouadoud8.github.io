@@ -77,7 +77,6 @@ const Project: FC<Props> = ({ id, children }) => {
                   <span>{data.quote?.person}</span>
                 </div>
               </div>
-
               <MyProjects />
             </div>
           );
