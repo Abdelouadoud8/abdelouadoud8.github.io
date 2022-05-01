@@ -5,7 +5,7 @@ const Header: FC = () => {
   return (
     <div className="header" onClick={ScrollToTop()}>
       <Link to="/" className="header__logo">
-        <span>Abdelouadoud.8</span>
+        <span>Abdelouadoud8</span>
       </Link>
 
       <ul className="header__list">
@@ -19,12 +19,12 @@ const Header: FC = () => {
             about
           </Link>
         </li>
-        <li className="header__list-item">
+        <li className="header__list-item header__list-item3">
           <Link to="/" className="header__list-link">
             testimonials
           </Link>
         </li>
-        <li className="header__list-item">
+        <li className="header__list-item header__list-item3">
           <Link to="/about" className="header__list-link">
             contact
           </Link>

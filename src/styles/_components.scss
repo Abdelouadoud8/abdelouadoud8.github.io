@@ -4,17 +4,25 @@
   justify-content: space-between;
   position: fixed;
   top: 0;
-  padding: 4rem 8rem;
+  padding: 4rem 10rem;
   width: 100%;
   height: 12rem;
   font-weight: 700;
   z-index: 120 !important;
   background-color: white;
 
+  @media screen and (max-width: $bp-small) {
+    padding: 2rem 2rem 2rem 5rem;
+    height: 7.5rem;
+  }
+
   &__logo {
     color: $black;
     font-size: 4rem;
     text-decoration: none;
+    @media screen and (max-width: $bp-small) {
+      font-size: 2.5rem;
+    }
   }
   &__list {
     display: flex;
@@ -24,18 +32,23 @@
     list-style: none;
     align-items: right;
     padding-top: 1.5rem;
+    @media screen and (max-width: $bp-small) {
+      width: 35%;
+      font-size: 1rem;
+      padding: 1rem;
+    }
+
+    &-item3 {
+      @media screen and (max-width: $bp-small) {
+        display: none;
+      }
+    }
     &-link {
       color: $gray-2;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 1.6rem;
       font-weight: 600;
-    }
-    &-link:link,
-    &-link:visited {
-      color: $main-color;
-      text-decoration: none;
-      position: relative;
     }
 
     &-link:hover {
@@ -97,7 +110,7 @@
     margin: auto;
 
     @media screen and (max-width: $bp-small) {
-      margin-top: 6rem;
+      margin-top: 8rem !important;
     }
 
     &-listitem {
@@ -697,24 +710,45 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.75rem 5rem;
-  // box-shadow: 0rem -4px 6px rgba(0, 0, 0, 0.05);
+  padding: 3rem;
   background-color: #ffffff;
-
-  & span,
-  p {
-    font-size: 12px;
-    color: $gray-3;
-  }
-
   position: fixed;
   bottom: 0;
   width: 100%;
+  @media screen and (max-width: $bp-small) {
+    padding: 1.2rem 2rem;
+  }
+
+  & span {
+    font-size: 12px;
+    color: $gray-3;
+    @media screen and (max-width: $bp-small) {
+      font-size: 1rem;
+    }
+  }
+  p {
+    font-size: 12px;
+    color: $gray-3;
+    @media screen and (max-width: $bp-small) {
+      font-size: 1rem;
+      margin: auto;
+    }
+  }
 
   &-socialmedia {
+    margin: auto 2rem;
+    @media screen and (max-width: $bp-small) {
+      display: flex;
+      flex-direction: row;
+      margin: auto;
+    }
     & img {
       margin-left: 1.5rem;
       width: 2.3rem;
+      @media screen and (max-width: $bp-small) {
+        margin-left: 1.5rem;
+        width: 1.8rem;
+      }
     }
   }
 }
