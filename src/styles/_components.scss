@@ -105,12 +105,12 @@
   &__projects {
     display: flex;
     flex-wrap: wrap;
-    width: 78.35%;
     padding: auto;
     text-align: center !important;
     margin-top: 12rem !important;
     align-items: center !important;
     margin-bottom: 12rem;
+    justify-content: center;
 
     @media screen and (max-width: $bp-small) {
       display: flex;
@@ -119,7 +119,8 @@
     }
 
     &-listitem {
-      width: 47rem;
+      max-width: 47rem;
+      width: 90%;
       height: 30rem;
       position: relative;
       overflow: hidden;
@@ -127,6 +128,7 @@
       background: radial-gradient(#111 50%, #000 100%) !important;
       align-items: center !important;
       @media screen and (max-width: $bp-small) {
+        width: 90%;
         height: 27rem;
         align-items: center !important;
       }

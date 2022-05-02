@@ -1,4 +1,3 @@
-import React from 'react'
 import RootRoute from './routes/RootRoute'
 import './styles/main.scss'
 function App() {
