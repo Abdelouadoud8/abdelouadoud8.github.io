@@ -85,7 +85,7 @@ const About: FC = () => {
           </div>
           <div className="about__semifooter-element">
             <h1>Contact</h1>
-            <span>+213 549260454</span>
+            <span>+213 559321737</span>
             <span>abdelouadoud.mahdaoui@gmail.com</span>
           </div>
         </div>

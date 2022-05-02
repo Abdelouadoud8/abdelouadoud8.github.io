@@ -26,25 +26,26 @@ const Work: FC = () => {
       <div id="testimonials" className="work__testimonials">
         <h1>Trusted by brands all over the world</h1>
         <div className="work__testimonials-content">
-          <img src="/img/testimonial.png" alt="" />
+          <img src="img/client1.jpeg" alt="" />
           <div className="work__testimonials-body">
-            <span>
-              Abdelouadoud helped our business deliver incredible results
-            </span>
+            <span>Abdelouadoud never ceases to amaze me</span>
             <p>
-              Vulputate neque, blandit faucibus vulputate sociis nisl. Leo felis
-              dignissim velit, vitae massa quam lorem. Sapien velit hendrerit
-              turpis a faucibus turpis. Purus tincidunt pulvinar tincidunt
-              gravida eu. Posuere nulla a dolor, proin. Velit vel semper augue
-              nulla integer lacus, consectetur. Amet pellentesque erat facilisi
-              proin luctus eget adipiscing.
+              I worked with abdelouadoud in several projects, he feels like an
+              extension of our team. When a project comes up, he is super
+              responsive, professional, and just fun to work with. I’m always
+              amazed at how he manages to take our rough vision and make
+              something beautiful. He makes us look good! Abdelouadoud is also
+              skilled at understanding the business case, setting expectations,
+              and very patiently managing any edits. He has a true eye for
+              design and ensures everything fits within our brand. I’ve
+              recommended him to many others!
             </p>
             <div className="work__testimonials-body--person">
               <span className="work__testimonials-body--person-name">
-                Cristian Erikson
+                Azzaz Rahmani Oussama
               </span>
               <span className="work__testimonials-body--person-position">
-                CEO @APPLE
+                FULL-STACK WEB DEVELOPER
               </span>
             </div>
           </div>

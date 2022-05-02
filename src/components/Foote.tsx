@@ -36,7 +36,7 @@ const Footer: FC = () => {
         >
           <img src="/img/Twitter.svg" alt="twitter" />
         </a>
-        <a href="/">
+        <a href="mailto:abdelouadoud.mahdaoui@gmail.com">
           <img src="/img/Gmail.svg" alt="gmail" />
         </a>
       </div>

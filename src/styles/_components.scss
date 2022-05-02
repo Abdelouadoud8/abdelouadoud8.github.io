@@ -4,9 +4,9 @@
   justify-content: space-between;
   position: fixed;
   top: 0;
-  padding: 4rem 10rem;
+  padding: 3rem 10rem;
   width: 100%;
-  height: 12rem;
+  height: 11rem;
   font-weight: 700;
   z-index: 120 !important;
   background-color: white;
@@ -18,7 +18,7 @@
 
   &__logo {
     color: $black;
-    font-size: 4rem;
+    font-size: 3.7rem;
     text-decoration: none;
     @media screen and (max-width: $bp-small) {
       font-size: 2.5rem;
@@ -72,11 +72,12 @@
     }
 
     & img {
-      width: 12%;
+      width: 7%;
       border-radius: 90%;
       margin-bottom: 4rem;
       @media screen and (max-width: $bp-small) {
         margin-bottom: 2rem;
+        width: 12%;
       }
     }
 
@@ -109,6 +110,7 @@
     text-align: center !important;
     margin-top: 12rem !important;
     align-items: center !important;
+    margin-bottom: 12rem;
 
     @media screen and (max-width: $bp-small) {
       display: flex;
@@ -207,7 +209,7 @@
   &__clients {
     display: flex;
     flex-direction: column;
-    margin-top: 24rem;
+    margin-top: 12rem;
     width: 100%;
     @media screen and (max-width: $bp-small) {
       margin-top: 15rem;
@@ -286,6 +288,9 @@
 
     & img {
       margin-right: 16rem;
+      width: 54rem;
+      height: 64rem;
+      object-fit: cover;
       @media screen and (max-width: $bp-small) {
         width: 30rem;
         margin: auto;
@@ -293,7 +298,7 @@
     }
     &-body {
       width: 85rem;
-      margin-top: 7rem;
+      margin-top: 5rem;
       @media screen and (max-width: $bp-small) {
         width: 100%;
         text-align: center;
@@ -309,10 +314,10 @@
       }
 
       & > p {
-        margin-top: 6rem;
-        font-size: 2rem;
+        margin-top: 4rem;
+        font-size: 1.8rem;
         color: $gray-3;
-        line-height: 4rem;
+        line-height: 3.8rem;
         @media screen and (max-width: $bp-small) {
           margin-top: 2.5rem;
           font-size: 1.2rem;
@@ -321,7 +326,7 @@
       }
 
       &--person {
-        margin-top: 8rem;
+        margin-top: 6rem;
         @media screen and (max-width: $bp-small) {
           margin-top: 2rem;
           display: flex;
@@ -394,6 +399,7 @@
           text-align: center;
         }
       }
+
       &--paragraph1 {
         margin-top: 3rem;
         font-size: 6rem;
@@ -773,7 +779,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem;
+  padding: 2.3rem 3rem;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;

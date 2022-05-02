@@ -53,9 +53,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Martin LeBlanc",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "A user interface is like a joke. If you have to explain it, it’s not that good.",
     },
   },
   {
@@ -136,9 +136,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Paula Scher",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "It's through mistakes that you actually can grow. You have to get bad in order to get good.",
     },
   },
   {
@@ -215,9 +215,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Antoine de Saint-Exupéry",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.",
     },
   },
   {
@@ -272,9 +272,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Andrew Grove",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "How well we communicate is determined not by how well we say things, but how well we are understood.",
     },
   },
   {
@@ -331,9 +331,9 @@ const projects = [
           "/img/myprojects/saidetudes/5.png",
         ],
         quote: {
-          person: "Joseph Duffy",
+          person: "Ralf Speth",
           description:
-            "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+            "If you think good design is expensive, you should look at the cost of bad design.",
         },
       },
       {
@@ -382,9 +382,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Lindo Leader",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "I strive for two things in design: simplicity and clarity. Great design is born of those two things.",
     },
   },
   {
@@ -439,9 +439,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Steve Jobs",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "Design is not just what it looks like and feels like. Design is how it works.",
     },
   },
   {
@@ -503,9 +503,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: " Naoto Fukasawa",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "Design needs to be plugged into human behavior. Design dissolves in behavior.",
     },
   },
   {
@@ -557,9 +557,9 @@ const projects = [
       },
     ],
     quote: {
-      person: "Joseph Duffy",
+      person: "Paul Rand",
       description:
-        "The best part of these prints is that no 2 prints are exactly alike. There are so many imperfections and beautiful little “accidents” that you cannot foresee prior to pulling the screens.",
+        "Simplicity is not the goal. It is the by-product of a good idea and modest expectations.",
     },
   },
 ];
