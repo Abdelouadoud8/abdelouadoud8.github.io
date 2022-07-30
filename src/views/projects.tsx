@@ -200,7 +200,7 @@ const projects = [
         title: "Logged in",
         subtitle: "User workflow",
         description:
-          "The user has a simple and mainn workflow for both revision and exams, he either start by choosing a year, then a module then a semester and finaly ends up with the exam/lesson lists, or he can access directly if he has already marked the exam/lesson in favoris. There are two kinds of questions, QCM and long questions, by finishing all questions student will get the result of his session with all previous answers.",
+          "The user has a simple and main workflow for both revision and exams, he either start by choosing a year, then a module then a semester and finaly ends up with the exam/lesson lists, or he can access directly if he has already marked the exam/lesson in favoris. There are two kinds of questions, QCM and long questions, by finishing all questions student will get the result of his session with all previous answers.",
         images: [
           "/img/myprojects/medecinquiz/4.png",
           "/img/myprojects/medecinquiz/5.png",
@@ -223,20 +223,19 @@ const projects = [
   {
     id: 4,
     role: "UI/UX Designer",
-    title: "SmartTrans Mobile app",
-    subtitle: "Complete your transactions in seconds with one click!",
+    title: "To Do App",
+    subtitle: "Simplest way to track & control all your daily tasks in one app",
     description:
-      "SmartTrans is a mobile application made a special big banking company to manage all their transactions between their offices around the world and automate all their system.",
-    cover: "/img/myprojects/smarttrans/1.png",
-    projectLink: "/smarttrans",
+      "We all have a busy day from work to shopping to home obligations, managing all these stuff together without forgetting any task is way too hard to maintain, the best solution is TODO lists! but with the advancement of the world and technology it is not practicle to take a book or a list with you everywhere!! Here where our todo app comes! In this research we will take a deep look on our users needs and best solutions we can provide, let’s roll into it!",
+    cover: "/img/myprojects/todoapp/1.png",
+    projectLink: "/todoapp",
     topics: [
-      { title: "Date", content: "October - December 2021" },
-      { title: "Agency", content: "HoskaDev company" },
+      { title: "Date", content: "June 2022" },
+      { title: "Platforms", content: "Web & mobile design" },
       { title: "Role", content: "UI/UX Designer" },
       {
-        title: "Deliverable",
-        content:
-          "Mobile UI design, iPhone 11 Pro mockups, complete prototype and figma source file.",
+        title: "Company",
+        content: "Lasting Dynamics",
       },
     ],
     sections: [
@@ -245,36 +244,70 @@ const projects = [
         title: "The Challenge",
         subtitle: "Why we did this work?",
         description:
-          "This mobile app is made for a big banking company that has been using papers and cash money for so long and decided to automate their system by automating the transactions, reports and customer support and here SmartTrans comes as the solution with complete banking system management customized regarding the company's needs. The company is based in middle east, so the application was designed in two different languages, both arabic and english.",
-        images: ["/img/myprojects/smarttrans/1.png"],
+          "This to do app is a part from my training at the Lasting Dynamics academy before joining the team, this was my final task to conduct a complete UX research followed by the UI design of a to do application. The task was guided by some guidlines and requirements that should be respected",
+        images: ["/img/myprojects/todoapp/1.png"],
       },
       {
         id: "02",
-        title: "Graphic chart",
-        subtitle: "What about fonts? colors?",
+        title: "User persona",
+        subtitle: "Our user persona",
         description:
-          "The colors are choosed regarding the company's identity and logos to keep consistancy and branding. For the typography, for the english version we used the Poppins and for the arabic the choice was on IBM Plex Sans Arabic.",
-        images: ["/img/myprojects/smarttrans/2.png"],
+          "To better understand our user persona and requirement and identify our enduser, we created a user persona that includes a bio, psychographics and a user story to identify our main functionalities and get out with an end goal",
+        images: ["/img/myprojects/todoapp/2.png"],
       },
       {
         id: "03",
-        title: "UI/UX design & screens",
-        subtitle: "A modern minimalist UI",
+        title: "UX Research",
+        subtitle: "A detailed UX research about product",
         description:
-          "The application UI was inspired from PAYSERA mobile app, In general, the app consists on banking transactions and exchanges by offering 6 main functionnalities between offices and also between customers (deposit, withdrawal, remittances, reports, currency exchange and inventory), and here we can see each part in details.",
-        images: [
-          "/img/myprojects/smarttrans/3.png",
-          "/img/myprojects/smarttrans/4.png",
-          "/img/myprojects/smarttrans/5.png",
-          "/img/myprojects/smarttrans/6.png",
-          "/img/myprojects/smarttrans/7.png",
-        ],
+          "To better identify our functionalities, a detailed UX research has been made including our user problems, goals and the common points and we get with some possible solution. After brainstorming we selected the best solution to implement. We also studied the market and our competitors, the strengths and weaknesses to better improve our user experience in our application.",
+        images: ["/img/myprojects/todoapp/3.png"],
+      },
+      {
+        id: "04",
+        title: "User workflow",
+        subtitle: "Flow chart",
+        description:
+          "Our mobile and web applications have different user workflows, we focused more on the mobile application since it is the main platform for our enduser, it has a simple main flow that facilitate as much as possible our main goal which creating tasks and tracking them, in addition we added a focus mode to allow users to focus while doing a task.",
+        images: ["/img/myprojects/todoapp/4.png"],
+      },
+      {
+        id: "05",
+        title: "Graphic chart",
+        subtitle: "Colors & typography",
+        description:
+          "For colors, we used mainly a dark purple combined with a black, in addition to this we used a light color for background and a gray for most typo and content. For typography we used Gilroy font by creating both Web & mobile styles with more than 4 different weights used.",
+        images: ["/img/myprojects/todoapp/5.png"],
+      },
+      {
+        id: "06",
+        title: "Wireframes",
+        subtitle: "Low fidelity mockups",
+        description:
+          "After finishing our UX research and User Flow, we started the wireframe phase to determine the structure of our screens, the items places and how to organize and keep consistency throw the pages, the wireframing part is just to show a low fidelity mockups to give an idea about the design before the UI phase.",
+        images: ["/img/myprojects/todoapp/6.png"],
+      },
+      {
+        id: "07",
+        title: "User Interface Design",
+        subtitle: "Let's talk about UI now",
+        description:
+          "After finishing the wireframes and the approval from the team, we start implementing these screens and turning them to high fidelity mockups that will be presented for the final review, the application includ both mobile and web versions",
+        images: ["/img/myprojects/todoapp/7.png"],
+      },
+      {
+        id: "08",
+        title: "Reusable components",
+        subtitle: "What about design components",
+        description:
+          "To facilitate work and make it easier for future changes and improvements, and in additional to our general design system, we created some reusable local components that we used in both mobile and web versions, below you will find an overview of some of these components.",
+        images: ["/img/myprojects/todoapp/8.png"],
       },
     ],
     quote: {
-      person: "Andrew Grove",
+      person: "Paul Rand",
       description:
-        "How well we communicate is determined not by how well we say things, but how well we are understood.",
+        "Simplicity is not the goal. It is the by-product of a good idea and modest expectations.",
     },
   },
   {
@@ -390,20 +423,20 @@ const projects = [
   {
     id: 6,
     role: "UI/UX Designer",
-    title: "Beach & Snow Volleyball",
-    subtitle: "A fresh re-design for french beach & snow volleyball website",
+    title: "SmartTrans Mobile app",
+    subtitle: "Complete your transactions in seconds with one click!",
     description:
-      "A website related with a mobile application for a new fresh design of the official french beach & snow volley website, this was a design for a client participating in a competition for the best re-design for the website, and hopefully the client was completely satisfied and that helped him win the prize.",
-    cover: "/img/myprojects/beachsnowvolleyball/1.png",
-    projectLink: "/beachsnowvolleyball",
+      "SmartTrans is a mobile application made a special big banking company to manage all their transactions between their offices around the world and automate all their system.",
+    cover: "/img/myprojects/smarttrans/1.png",
+    projectLink: "/smarttrans",
     topics: [
-      { title: "Date", content: "July - August 2020" },
-      { title: "Platforms", content: "Both web and mobile" },
+      { title: "Date", content: "October - December 2021" },
+      { title: "Agency", content: "HoskaDev company" },
       { title: "Role", content: "UI/UX Designer" },
       {
         title: "Deliverable",
         content:
-          "Web app design, mobile app design, iPhone 11 Pro mockups, Wireframes, prototype, figma source file.",
+          "Mobile UI design, iPhone 11 Pro mockups, complete prototype and figma source file.",
       },
     ],
     sections: [
@@ -412,36 +445,36 @@ const projects = [
         title: "The Challenge",
         subtitle: "Why we did this work?",
         description:
-          "My client was participating in a competition for the best re-design of the official french beach & snow volleyball website, he asked me to do the work following the same graphic chart. The main vision is to make a modern and clean website and reinforce it with a mobile application containing pretty much the same content.",
-        images: ["/img/myprojects/beachsnowvolleyball/1.png"],
+          "This mobile app is made for a big banking company that has been using papers and cash money for so long and decided to automate their system by automating the transactions, reports and customer support and here SmartTrans comes as the solution with complete banking system management customized regarding the company's needs. The company is based in middle east, so the application was designed in two different languages, both arabic and english.",
+        images: ["/img/myprojects/smarttrans/1.png"],
       },
       {
         id: "02",
         title: "Graphic chart",
         subtitle: "What about fonts? colors?",
         description:
-          "We used the same font and colors for both mobile and web versions to keep the consistency of course, for the font we used a mix of the Inter and Sarala nter and for their decoration that goes with the theme and their consistency together, for the colors, they were provided by the client regarding the colors of the old website design.",
-        images: ["/img/myprojects/beachsnowvolleyball/2.png"],
+          "The colors are choosed regarding the company's identity and logos to keep consistancy and branding. For the typography, for the english version we used the Poppins and for the arabic the choice was on IBM Plex Sans Arabic.",
+        images: ["/img/myprojects/smarttrans/2.png"],
       },
       {
         id: "03",
-        title: "UI screens & parts",
-        subtitle: "What does the work includes?",
+        title: "UI/UX design & screens",
+        subtitle: "A modern minimalist UI",
         description:
-          "The work includes generally all the information and actuality about both beach & snow volleyball including tournaments, leagues, players, media and even a shop section, every section is detailled for ex. every player with all his statistics, each leagues with ranking and tables...",
+          "The application UI was inspired from PAYSERA mobile app, In general, the app consists on banking transactions and exchanges by offering 6 main functionnalities between offices and also between customers (deposit, withdrawal, remittances, reports, currency exchange and inventory), and here we can see each part in details.",
         images: [
-          "/img/myprojects/beachsnowvolleyball/3.png",
-          "/img/myprojects/beachsnowvolleyball/4.png",
-          "/img/myprojects/beachsnowvolleyball/5.png",
-          "/img/myprojects/beachsnowvolleyball/6.png",
-          "/img/myprojects/beachsnowvolleyball/7.png",
+          "/img/myprojects/smarttrans/3.png",
+          "/img/myprojects/smarttrans/4.png",
+          "/img/myprojects/smarttrans/5.png",
+          "/img/myprojects/smarttrans/6.png",
+          "/img/myprojects/smarttrans/7.png",
         ],
       },
     ],
     quote: {
-      person: "Steve Jobs",
+      person: "Andrew Grove",
       description:
-        "Design is not just what it looks like and feels like. Design is how it works.",
+        "How well we communicate is determined not by how well we say things, but how well we are understood.",
     },
   },
   {
@@ -510,6 +543,63 @@ const projects = [
   },
   {
     id: 8,
+    role: "UI/UX Designer",
+    title: "Beach & Snow Volleyball",
+    subtitle: "A fresh re-design for french beach & snow volleyball website",
+    description:
+      "A website related with a mobile application for a new fresh design of the official french beach & snow volley website, this was a design for a client participating in a competition for the best re-design for the website, and hopefully the client was completely satisfied and that helped him win the prize.",
+    cover: "/img/myprojects/beachsnowvolleyball/1.png",
+    projectLink: "/beachsnowvolleyball",
+    topics: [
+      { title: "Date", content: "July - August 2020" },
+      { title: "Platforms", content: "Both web and mobile" },
+      { title: "Role", content: "UI/UX Designer" },
+      {
+        title: "Deliverable",
+        content:
+          "Web app design, mobile app design, iPhone 11 Pro mockups, Wireframes, prototype, figma source file.",
+      },
+    ],
+    sections: [
+      {
+        id: "01",
+        title: "The Challenge",
+        subtitle: "Why we did this work?",
+        description:
+          "My client was participating in a competition for the best re-design of the official french beach & snow volleyball website, he asked me to do the work following the same graphic chart. The main vision is to make a modern and clean website and reinforce it with a mobile application containing pretty much the same content.",
+        images: ["/img/myprojects/beachsnowvolleyball/1.png"],
+      },
+      {
+        id: "02",
+        title: "Graphic chart",
+        subtitle: "What about fonts? colors?",
+        description:
+          "We used the same font and colors for both mobile and web versions to keep the consistency of course, for the font we used a mix of the Inter and Sarala nter and for their decoration that goes with the theme and their consistency together, for the colors, they were provided by the client regarding the colors of the old website design.",
+        images: ["/img/myprojects/beachsnowvolleyball/2.png"],
+      },
+      {
+        id: "03",
+        title: "UI screens & parts",
+        subtitle: "What does the work includes?",
+        description:
+          "The work includes generally all the information and actuality about both beach & snow volleyball including tournaments, leagues, players, media and even a shop section, every section is detailled for ex. every player with all his statistics, each leagues with ranking and tables...",
+        images: [
+          "/img/myprojects/beachsnowvolleyball/3.png",
+          "/img/myprojects/beachsnowvolleyball/4.png",
+          "/img/myprojects/beachsnowvolleyball/5.png",
+          "/img/myprojects/beachsnowvolleyball/6.png",
+          "/img/myprojects/beachsnowvolleyball/7.png",
+        ],
+      },
+    ],
+    quote: {
+      person: "Steve Jobs",
+      description:
+        "Design is not just what it looks like and feels like. Design is how it works.",
+    },
+  },
+  {
+    id: 9,
     role: "UI/UX Designer",
     title: "Gaming Package & stream Website",
     subtitle: "Get your best game packages and live the streaming",
