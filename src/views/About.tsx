@@ -14,16 +14,18 @@ const About: FC = () => {
       <Card className="about__topics-diviser"></Card>
       <div className="about__topics">
         <Topics title="education">
+          <span>
+            Higher national school of computer science Sidi Bel Abbes (ESI-SBA)
+          </span>
+          <p>Computer science engineer, June 2023</p>
           <span>Technicum Ahmed Zabana</span>
-          <p>Baccalaureate science, June 2021</p>
-          <span>Higher national school of computer science Sidi Bel Abbes</span>
-          <p>Computer science student , Expected June 2023</p>
-          <span>French Cultural Center - Campus france</span>
-          <p>TCF - SO, Level B2 - October 2019</p>
+          <p>Baccalaureate science, June 2018</p>
         </Topics>
         <Topics title="experience">
-          <span>Junior UI/UX designer - Hoskadev</span>
-          <p>September 2021 - Today</p>
+          <span>Junior UI/UX designer - Lasting Dynamics - Spain</span>
+          <p>July 2022 - Present</p>
+          <span>Junior UI/UX designer - Hoskadev - Algeria</span>
+          <p>January - Juin 2022</p>
           <span>UI/UX designer - Freelance</span>
           <p>April 2020 - August 2021 </p>
         </Topics>
@@ -35,7 +37,7 @@ const About: FC = () => {
             Strategy.
           </p>
           <span>Development</span>
-          <p>Web & Mobile front-end development, Oriented solution.</p>
+          <p>Web front-end development, Oriented solution.</p>
         </Topics>
         <Topics title="technical skills">
           <span>Design</span>
@@ -45,15 +47,20 @@ const About: FC = () => {
           </p>
           <span>Development</span>
           <p>
-            JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Reactjs, React
-            Native, Git&Github, MySQL.
+            JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Reactjs,
+            Git&Github, Docker, MySQL.
+          </p>
+          <span>Frameworks & Technologies</span>
+          <p>
+            ReactJs, ExpressJs, SpringBoot, Git & Github, MySQL, Oracle, Docker,
+            Redux toolkit, Bootstrap
           </p>
           <span>Office automation</span>
           <p>Microsoft Office, LaTeX</p>
         </Topics>
-        <Topics title="awards">
-          <span>MLH - Major league hacking 2018</span>
-          <p>2nd place</p>
+        <Topics title="certificates">
+          <span>French Cultural Center - Campus france</span>
+          <p>TCF - SO, Level C1 - October 2022</p>
         </Topics>
       </div>
       <Card className="about__semifooter-diviser"></Card>

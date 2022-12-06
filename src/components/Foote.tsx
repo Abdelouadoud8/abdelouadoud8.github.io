@@ -4,7 +4,7 @@ const Footer: FC = () => {
   return (
     <div className="footer">
       <p>
-        Mahdaoui Abdelouadoud 2021 | Designer |
+        Copyright © 2021 Mahdaoui Abdelouadoud |
         <span> abdelouadoud.mahdaoui@gmail.com</span>
       </p>
       <div className="footer-socialmedia">

@@ -9,7 +9,7 @@ const Work: FC = () => {
         <span>Hi, I’m Abdelouadoud 🤙</span>
         <p>
           I’m a UI/UX designer & front-end developer focused on building brands
-          and digital experiences - Currently 4th year computer science student
+          and digital experiences.
         </p>
       </div>
       <MyProjects />
