@@ -15,19 +15,31 @@ const About: FC = () => {
       <div className="about__topics">
         <Topics title="education">
           <span>
-            Higher national school of computer science Sidi Bel Abbes (ESI-SBA)
+            Master 2 in Software Architectures, September 2023 - Present
           </span>
-          <p>Computer science engineer, June 2023</p>
-          <span>Technicum Ahmed Zabana</span>
-          <p>Baccalaureate science, June 2018</p>
+          <p>University of Montpellier - Montpellier, France</p>
+          <span>
+            Computer science engineer & Master 2, September 2018 - June 2023
+          </span>
+          <p>
+            Higher national school of computer science Sidi Bel Abbes (ESI-SBA)
+            - Sidi Bel Abbés, Algeria
+          </p>
+          <span>Baccalaureate science - June 2018</span>
+          <p>Technicum Ahmed Zabana - Blida, Algeria</p>
         </Topics>
         <Topics title="experience">
-          <span>Junior UI/UX designer - Lasting Dynamics - Spain</span>
-          <p>July 2022 - Present</p>
-          <span>Junior UI/UX designer - Hoskadev - Algeria</span>
-          <p>January - Juin 2022</p>
-          <span>UI/UX designer - Freelance</span>
-          <p>April 2020 - August 2021 </p>
+          <span>Internship, March - August 2023</span>
+          <p>
+            (LIRMM) Laboratoire d'informatique, de robotique et de
+            microélectronique - Montpellier, France
+          </p>
+          <span>Junior UI/UX designer, July 2022 - Present</span>
+          <p>Lasting Dynamics - Las Palmas, Spain</p>
+          <span>Junior UI/UX designer, January - Juin 2022</span>
+          <p>Hoskadev - Algiers, Algeria</p>
+          <span>Internship, September - November 2021 </span>
+          <p>Coft Conseil - Algiers, Algeria</p>
         </Topics>
         <Topics title="skills">
           <span>Design</span>
@@ -41,26 +53,25 @@ const About: FC = () => {
         </Topics>
         <Topics title="technical skills">
           <span>Design</span>
+          <p>Figma, Adobe XD, Sketch, Photoshop, Illustrator, InDesign.</p>
+          <span>Programming languages</span>
           <p>
-            Figma, Adobe XD, Sketch, Photoshop, Illustrator, InDesign,
-            Lightroom, After Effects.
-          </p>
-          <span>Development</span>
-          <p>
-            JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Reactjs,
-            Git&Github, Docker, MySQL.
+            JavaScript, TypeScript, Node.js, Java, PHP, Ruby, HTML5, CSS3, Sass,
+            Pascal.
           </p>
           <span>Frameworks & Technologies</span>
           <p>
-            ReactJs, ExpressJs, SpringBoot, Git & Github, MySQL, Oracle, Docker,
-            Redux toolkit, Bootstrap
+            ReactJs, VueJs, Angular, ExpressJs, SpringBoot, Git & Github, Redux
+            toolkit, Ruby on Rails, MySQL, Oracle, Docker, Bootstrap.
           </p>
+          <span>Modeling & Concepts</span>
+          <p>Design Patterns, UML Modelization, Microservices architectures.</p>
           <span>Office automation</span>
           <p>Microsoft Office, LaTeX</p>
         </Topics>
         <Topics title="certificates">
-          <span>French Cultural Center - Campus france</span>
-          <p>TCF - SO, Level C1 - October 2022</p>
+          <span>TCF-SO (Level C1) - October 2022</span>
+          <p>French Cultural Center - Campus france</p>
         </Topics>
       </div>
       <Card className="about__semifooter-diviser"></Card>
@@ -83,16 +94,16 @@ const About: FC = () => {
               <span>Linkedin</span>
             </a>
             <a
-              href="https://twitter.com/AbdElWadoud_8"
+              href="https://github.com/Abdelouadoud8"
               target="_blank"
               rel="noreferrer"
             >
-              <span>Twitter</span>
+              <span>Github</span>
             </a>
           </div>
           <div className="about__semifooter-element">
             <h1>Contact</h1>
-            <span>+213 559321737</span>
+            <span>+33 773471197</span>
             <span>abdelouadoud.mahdaoui@gmail.com</span>
           </div>
         </div>

@@ -8,14 +8,18 @@ const PersonalInfos: FC = () => {
         <span>Mahdaoui Abdelouadoud </span>
         <p className="about__personalinfos-body--paragraph1">👋</p>
         <p className="about__personalinfos-body--paragraph2">
-          I’m a UI/UX designer & front-end developer focused on building brands
-          and digital experiences
+          As a passionate Software Engineer, I thrive in web development and
+          have a strong affinity for UI/UX Design. My eagerness to learn and
+          embrace new challenges drives me to tackle real-life user problems and
+          deliver seamless user experiences.
         </p>
         <p className="about__personalinfos-body--paragraph3">
-          I am specialized in bridging the tenets of brand identity with UX/UI
-          to create innovative and impactful design solutions for the modern
-          age. Aside from design, I play volleyball, run long distances, watch
-          anime, and a big fun of Friends.
+          As a specialist in bridging brand identity through the fusion of Web
+          Development and UX/UI, I craft innovative and impactful design
+          solutions for the modern era. Beyond work, I find joy in playing
+          volleyball and exploring different places through travel. In my
+          leisure time, I indulge in watching anime and count myself as a big
+          fan of the TV series "Friends."
         </p>
       </div>
     </div>

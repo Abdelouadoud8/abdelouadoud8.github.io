@@ -8,7 +8,7 @@ const Work: FC = () => {
         <img src="/img/mypicture.jpeg" alt="" />
         <span>Hi, I’m Abdelouadoud 🤙</span>
         <p>
-          I’m a UI/UX designer & front-end developer focused on building brands
+          I’m a Web Developer & UI/UX Designer focused on building brands
           and digital experiences.
         </p>
       </div>
